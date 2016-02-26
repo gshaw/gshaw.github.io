@@ -1,3 +1,7 @@
 # Gerry's Personal Home Page
 
-A work in progress to move gshaw.ca onto GitHub
+Jekyll site for Gerry's personal home page.
+
+[Good Clean Read theme by adueck](https://adueck.github.io/good-clean-read).
+
+[Live Site](http://gshaw.ca)
