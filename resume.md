@@ -4,8 +4,8 @@ title: Resume for Gerry Shaw
 ---
 
 Vancouver, Canada
-gerry_shaw@yahoo.com  
-[http://gshaw.ca](http://gshaw.ca)
+[gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)  
+[gshaw.ca](http://gshaw.ca) &middot; [github.com/gshaw](https://github.com/gshaw) &middot; [stackoverflow.com/users/265940/gerry](http://stackoverflow.com/users/265940/gerry) &middot; [twitter.com/gerry_shaw](https://twitter.com/gerry_shaw)
 
 ## Career Highlights
 
