@@ -30,7 +30,7 @@ Read the Bible together with your friends anywhere.
 * **[Mark](https://mark.com)** :
 Get a great domain name.
 
-More details are available on my [resume]().
+More details are available on my [resume](/resume).
 
 -----
 
