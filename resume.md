@@ -79,12 +79,12 @@ Emergency Medial Responder and Primary Care Paramedic programs.
 
 ### Birds Near Me - Worldwide Birding Guide
 Designed and created a world wide field guide for birders integrating data from eBird, Wikipedia, Flickr and Xeno-Canto. Available on the Apple App Store.
-[http://birdsnearme.com](http://birdsnearme.com)
+[birdsnearme.com](http://birdsnearme.com)
 
 ### iDefibrillate - AED Simulator
 iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization. Available on the Apple App Store.
-[http://gshaw.ca/idefibrillate/](http://gshaw.ca/idefibrillate/)
+[gshaw.ca/idefibrillate](http://gshaw.ca/idefibrillate/)
 
 ### Nant - A .NET Build Tool
 Founding developer and project coordinator for an open source cross platform build tool written in C# on the .NET platform. Used by Intel, Microsoft, ActiveState, Mono, and many other companies and projects.
-[https://github.com/nant/nant/](https://github.com/nant/nant/)
+[github.com/nant/nant](https://github.com/nant/nant/)
