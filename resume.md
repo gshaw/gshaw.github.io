@@ -3,13 +3,16 @@ layout: resume
 title: Resume for Gerry Shaw
 ---
 
-Vancouver, Canada
-[gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)  
-[gshaw.ca](http://gshaw.ca) &middot; [github.com/gshaw](https://github.com/gshaw) &middot; [stackoverflow.com/users/265940/gerry](http://stackoverflow.com/users/265940/gerry) &middot; [twitter.com/gerry_shaw](https://twitter.com/gerry_shaw)
+Software Engineer in Vancouver, Canada
+
+* [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
+* [gshaw.ca](http://gshaw.ca)
+* [github.com/gshaw](https://github.com/gshaw)
+* [twitter.com/gerry_shaw](https://twitter.com/gerry_shaw)
+* [stackoverflow.com/users/265940/gerry](http://stackoverflow.com/users/265940/gerry)
 
 ## Career Highlights
-
-* Over twenty-two years software development / team lead experience developing world class, gaming and web application software.
+* Over twenty-two years software development / team lead experience developing world class gaming, web and mobile software.
 * Proficient in Ruby on Rails, C/C++, C#, Objective-C, Cocoa, Unix Bachelors of Science, major in Computer Science
 * Emergency medical background with 5 years BC Ambulance Service experience
 
@@ -19,18 +22,18 @@ Vancouver, Canada
 Jan 2011 - Present  
 Venture Media Labs Inc.
 
-Lead Software Engineer for all projects at Venture Media Labs. Involved in training, recruiting, planning and development of more than 10 custom web and iOS applications ranging from social networks, eCommerce. Web applications use Ruby on Rails, Postgres, AWS. Example projects include BlackFriday.com with more than 50 million visitors in November and Canvus.com generating $300K in monthly sales.  I can work the entire stack but my strength is back-end and leadership.
+Lead Software Engineer for all projects at Venture Media Labs. Involved in training, recruiting, planning and development of more than 10 custom web and iOS applications ranging from social networks, eCommerce. Web applications use Ruby on Rails, Postgres, AWS. Example projects include BlackFriday.com with more than 50 million visitors in November and Canvus.com generating $300K in monthly sales. I can work the entire stack but my strength is back-end and leadership.
 
 ### Self Employed Software Engineer
 Jan 2000 - Present
 
-Started my own company to provide custom application and web site programming. Worked on a variety of projects including a client server Windows application and an e-commerce web site. I was responsible for all phases for project development. The projects received great praise for their usability and stability. Recent work has involved numerous Ruby on Rails sites and a medical simulation application.
+Started my own company to provide custom application and web application development. Worked on a variety of projects including a client server Windows application and an e-commerce site. I was responsible for all phases for project development. The projects received great praise for their usability and stability.
 
 ### Emergency Paramedic
 2007 - 2012  
 British Columbia Ambulance Service
 
-An opportunity arrived from volunteering at my local fire department led to me taking the required training to work as a licensed Paramedic in my community. A new found interest in combining software and medicine has involved into contract work on medical research projects with surgeons at Vancouver General Hospital.
+An opportunity arrived from volunteering at my local fire department led to me taking the required training to work as a licensed Paramedic in my community. A new found interest in combining software and medicine evolved into contract work on medical research projects with surgeons at Vancouver General Hospital.
 
 ### Senior Software Engineer
 Jun 2002 - Nov 2007  

@@ -2,7 +2,13 @@
 layout: default
 ---
 
-## I love learning, growing, building great software and making a difference.
+## Software Engineer in Vancouver, Canada
+
+* [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
+* [GitHub](https://github.com/gshaw)
+* [Twitter](https://twitter.com/gerry_shaw)
+* [Stack Overflow](http://stackoverflow.com/users/265940/gerry)
+* [Resume](/resume)
 
 ### Personal Projects
 
@@ -16,22 +22,16 @@ iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillat
 
 ### Professional Projects
 
-My current professional projects for work that I do for my current employer [Venture Media Labs Inc.](http://venturemedia.com) as their Lead Software Engineer.
+Projects that I am currently working as the lead software engineer for [Venture Media](http://venturemedia.com). Note that we are not an agency, we design, build and operate the businesses we create.
 
-* **[Canvus](https://canvus.com)** :
-A professional marketer platform for selling licensed sporting apparel.
+#### [Canvus](https://canvus.com)
 
-* **[BlackFriday](https://blackfriday.com)** :
-The best Black Friday ads and deals.
+A professional marketer platform for selling licensed sporting apparel.  I lead the development team that created the Ruby on Rails application and am actively involved in the continued development of the project.  Canvus integrates with multiple service APIs including Stripe and PayPal, EasyPost for shipments, Facebook ad integration for marketer dashboards and custom APIs to support multiple fulfillment partners.
 
-* **[My Bible](https://mybible.com)** :
-Read the Bible together with your friends anywhere.
+#### [BlackFriday](https://blackfriday.com)
 
-* **[Mark](https://mark.com)** :
-Get a great domain name.
+The best Black Friday ads and deals.  Partners with over 200 retailers and has over 30 million users.  I lead the team that created the current Ruby on Rails application.  To handle the crush of fall traffic that can peak at over 40,000 concurrent users we use Varnish to handle caching.
 
-More details are available on my [resume](/resume).
+#### [Intune](https://intune.com)
 
------
-
-{% include sharing.html %}
+Reinventing Sheet Music.  Intune is reinventing how sheet music is read, practiced and performed in today's digital age.  My contribution was building the embedded sheet music store.  Powered by a Ruby on Rails backend integrating with iTunesConnect to support in app purchases.

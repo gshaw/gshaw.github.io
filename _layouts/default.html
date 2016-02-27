@@ -6,20 +6,16 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/syntax.css">
-  <link rel="stylesheet" href="/css/rrssb.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="/css/solo.css">
-  <script src="/scripts/jquery.js"></script>
   <link rel="canonical" href="{{ site.ull }}" />
 </head>
-<body>
+<body class="default-layout">
   <article>
     <div class="container">
-      <h1><a href="./">{{ site.tag_text }}</a></h1>
+      <h1>{{ site.tag_text }}</h1>
       {{ content }}
     </div>
   </article>
-  <script src="{{ site.url }}/scripts/rrssb.min.js"></script>
 </body>
 </html>
