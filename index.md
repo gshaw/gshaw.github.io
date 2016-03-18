@@ -35,3 +35,5 @@ The best Black Friday ads and deals.  Partners with over 200 retailers and has o
 #### [Intune](https://intune.com)
 
 Reinventing Sheet Music.  Intune is reinventing how sheet music is read, practiced and performed in today's digital age.  My contribution was building the embedded sheet music store.  Powered by a Ruby on Rails backend integrating with iTunesConnect to support in app purchases.
+
+<p style="text-align:center"><a href="/spencer" style="font-size: 10px; color:#eee">Hint for Spencer</a></p>
