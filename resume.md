@@ -53,18 +53,6 @@ Tools included image editors, movie compression, font creation, 3D texture manag
 
 Electronic Arts is a world leader in gaming software and has offices all over the world. The tools that my group developed were used in shipping many award winning titles by offices around the world including outside contractors.
 
-### Intern
-May 1992 - Aug 1992  
-Insurance Corporation of British Columbia
-
-Intern with the IS department helping wiring wiring and upgrading all computers to a token ring network.
-
-### Intern
-Aug 1991 - Dec 1991  
-Powertech Labs Inc.
-
-Intern doing technical support for the approximately 150 employees of the office.
-
 ### Canadian Armed Forces
 June 1989 - June 1992
 
