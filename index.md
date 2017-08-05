@@ -24,6 +24,10 @@ iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillat
 
 Projects that I am currently working as the lead software engineer for [Venture Media](http://venturemedia.com). Note that we are not an agency, we design, build and operate the businesses we create.
 
+#### [Chit Chats](https://chitchats.com)
+
+Save up to 70% on shipping from Canada to the US. Print discounted US postage in Canada and we’ll courier your parcels across the border, taking care of customs and make daily drop-offs to USPS.
+
 #### [SnapPrint](https://snapprint.com)
 
 A fun web application that lets anybody design their own T-shirt in minutes.  Motivated out of frustration from working on T-shirt platform but had no way to easily design shirts for myself.  Procedurally generates typography designs using SVG.  Integrates with Stripe and Canvus.
