@@ -6,10 +6,10 @@ title: Resume for Gerry Shaw
 Software Engineer in Vancouver, Canada
 
 * [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
-* [gshaw.ca](http://gshaw.ca)
+* [gshaw.ca](https://gshaw.ca)
 * [github.com/gshaw](https://github.com/gshaw)
 * [twitter.com/gerry_shaw](https://twitter.com/gerry_shaw)
-* [stackoverflow.com/users/265940/gerry](http://stackoverflow.com/users/265940/gerry)
+* [stackoverflow.com/users/265940/gerry](https://stackoverflow.com/users/265940/gerry-shaw)
 
 ## Career Highlights
 * Over twenty-two years software development / team lead experience developing world class gaming, web and mobile software.
@@ -49,7 +49,7 @@ Electronic Arts Inc.
 
 Team lead for small section of developers in the tools & libraries department. Worked on many Windows and cross platform tools in C/C++ and helped on many shipped projects.
 
-Tools included image editors, movie compression, font creation, 3D texture management, front end layout, and localization. Worked on cross platform game libraries used by dozens of projects like NHL, FIFA, NBA, Triple Play, and Need for Speed. An incomplete list of games can be found on my [Moby Games profile](http://www.mobygames.com/developer/sheet/view/developerId=7341/).
+Tools included image editors, movie compression, font creation, 3D texture management, front end layout, and localization. Worked on cross platform game libraries used by dozens of projects like NHL, FIFA, NBA, Triple Play, and Need for Speed. An incomplete list of games can be found on my [Moby Games profile](https://www.mobygames.com/developer/sheet/view/developerId=7341/).
 
 Electronic Arts is a world leader in gaming software and has offices all over the world. The tools that my group developed were used in shipping many award winning titles by offices around the world including outside contractors.
 
@@ -74,7 +74,7 @@ Designed and created a world wide field guide for birders integrating data from 
 
 ### iDefibrillate - AED Simulator
 iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization. Available on the Apple App Store.
-[gshaw.ca/idefibrillate](http://gshaw.ca/idefibrillate/)
+[gshaw.ca/idefibrillate](https://gshaw.ca/idefibrillate/)
 
 ### Nant - A .NET Build Tool
 Founding developer and project coordinator for an open source cross platform build tool written in C# on the .NET platform. Used by Intel, Microsoft, ActiveState, Mono, and many other companies and projects.

@@ -7,7 +7,7 @@ layout: default
 * [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
 * [GitHub](https://github.com/gshaw)
 * [Twitter](https://twitter.com/gerry_shaw)
-* [Stack Overflow](http://stackoverflow.com/users/265940/gerry)
+* [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)
 * [Resume](/resume)
 
 ### Personal Projects
@@ -16,13 +16,13 @@ layout: default
 
 Birds Near Me is a bird guide for everybody anywhere in the world. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world.
 
-#### [iDefibrillate](http://gshaw.ca/idefibrillate/)
+#### [iDefibrillate](https://gshaw.ca/idefibrillate/)
 
 iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization.
 
 ### Professional Projects
 
-Projects that I am currently working as the lead software engineer for [Venture Media](http://venturemedia.com). Note that we are not an agency, we design, build and operate the businesses we create.
+Projects that I am currently working as the lead software engineer for [Venture Media](https://venturemedia.com). Note that we are not an agency, we design, build and operate the businesses we create.
 
 #### [Chit Chats](https://chitchats.com)
 
