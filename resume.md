@@ -70,7 +70,7 @@ Emergency Medial Responder and Primary Care Paramedic programs.
 
 ### Birds Near Me - Worldwide Birding Guide
 Designed and created a world wide field guide for birders integrating data from eBird, Wikipedia, Flickr and Xeno-Canto. Available on the Apple App Store.
-[birdsnearme.com](http://birdsnearme.com)
+[birdsnearme.com](https://birdsnearme.com)
 
 ### iDefibrillate - AED Simulator
 iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization. Available on the Apple App Store.

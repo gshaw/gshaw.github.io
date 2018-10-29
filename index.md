@@ -12,7 +12,7 @@ layout: default
 
 ### Personal Projects
 
-#### [Birds Near Me](http://birdsnearme.com)
+#### [Birds Near Me](https://birdsnearme.com)
 
 Birds Near Me is a bird guide for everybody anywhere in the world. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world.
 
