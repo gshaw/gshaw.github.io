@@ -22,18 +22,10 @@ iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillat
 
 ### Professional Projects
 
-Projects that I am currently working as the lead software engineer for [Venture Media](https://venturemedia.com). Note that we are not an agency, we design, build and operate the businesses we create.
+Projects that I am currently working as the lead software engineer for [Reinvent](https://reinvent.com). Note that we are not an agency, we design, build and operate the businesses we create.
 
 #### [Chit Chats](https://chitchats.com)
 
 Save up to 70% on shipping from Canada to the US. Print discounted US postage in Canada and we’ll courier your parcels across the border, taking care of customs and make daily drop-offs to USPS.
-
-#### [Canvus](https://canvus.com)
-
-A professional marketer platform for selling licensed sporting apparel.  I lead the development team that created the Ruby on Rails application and am actively involved in the continued development of the project.  Canvus integrates with multiple service APIs including Stripe and PayPal, EasyPost for shipments, Facebook ad integration for marketer dashboards and custom APIs to support multiple fulfillment partners.
-
-#### [BlackFriday](https://blackfriday.com)
-
-The best Black Friday ads and deals.  Partners with over 200 retailers and has over 30 million users.  I lead the team that created the current Ruby on Rails application.  To handle the crush of fall traffic that can peak at over 40,000 concurrent users we use Varnish to handle caching.
 
 <p style="text-align:center"><a href="/spencer" style="font-size: 10px; color:#eee">Hint for Spencer</a></p>
