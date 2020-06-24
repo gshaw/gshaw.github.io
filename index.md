@@ -4,7 +4,7 @@ layout: default
 
 ## Software Engineer in Vancouver, Canada
 
-* [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
+* [gshaw@hey.com](mailto:gshaw@hey.com)
 * [GitHub](https://github.com/gshaw)
 * [Twitter](https://twitter.com/gerry_shaw)
 * [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)

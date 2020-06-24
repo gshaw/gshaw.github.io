@@ -5,7 +5,7 @@ title: Resume for Gerry Shaw
 
 Software Engineer in Vancouver, Canada
 
-* [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
+* [gshaw@hey.com](mailto:gshaw@hey.com)
 * [gshaw.ca](https://gshaw.ca)
 * [github.com/gshaw](https://github.com/gshaw)
 * [twitter.com/gerry_shaw](https://twitter.com/gerry_shaw)
