@@ -2,13 +2,13 @@
 layout: default
 ---
 
-## Software Engineer in Vancouver, Canada
+## Independent Software Developer in Vancouver, Canada
 
-* [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
-* [GitHub](https://github.com/gshaw)
-* [Twitter](https://twitter.com/gerry_shaw)
-* [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)
-* [Resume](/resume)
+- [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
+- [GitHub](https://github.com/gshaw)
+- [Twitter](https://twitter.com/gerry_shaw)
+- [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)
+- [Resume](/resume)
 
 ### Personal Projects
 
@@ -22,7 +22,7 @@ iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillat
 
 ### Professional Projects
 
-Projects that I am currently working as the lead software engineer for [Reinvent](https://reinvent.com). Note that we are not an agency, we design, build and operate the businesses we create.
+Projects that I previously worked on as head of technology for [Reinvent](https://reinvent.com).
 
 #### [Chit Chats](https://chitchats.com)
 
