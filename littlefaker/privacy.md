@@ -1,8 +1,9 @@
 ---
 layout: page
+title: Little Faker Privacy Policy
 ---
 
-### Little Faker Privacy Policy
+### {{ page.title }}
 
 This Privacy Policy describes how your personal information is handled in [Little Faker](/littlefaker).
 
