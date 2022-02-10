@@ -23,6 +23,10 @@ Birds Near Me is a bird guide for everybody anywhere in the world. Find what bir
 
 iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization.
 
+#### [Little Faker](/littlefaker/)
+
+Latin text and other fake data generator for macOS. Lightweight, quick, completely free.
+
 ### Professional Projects
 
 Projects that I previously worked on as head of technology for [Reinvent](https://reinvent.com).
