@@ -9,7 +9,7 @@ by [Gerry Shaw](/)
 
 Latin text and other fake data generator for macOS. Lightweight, quick, completely free.
 
-<img alt="Screenshot 1" src="screenshot.png" width="640">
+<img alt="Screenshot of Little Faker" src="screenshot.png" style="max-width: 100%">
 
 - Generates words, sentences, paragraphs, names, email, addresses, random numbers.
 - Quick access to recently used generators.
