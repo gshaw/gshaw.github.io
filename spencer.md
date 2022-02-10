@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Need a hint Spencer?
 ---
 

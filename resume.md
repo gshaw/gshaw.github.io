@@ -1,24 +1,28 @@
 ---
-layout: resume
 title: Resume for Gerry Shaw
 ---
 
-Independent Software Developer in Vancouver, Canada
+<hgroup>
+  <h1>Resume for Gerry Shaw</h1>
+  <h2>Independent Software Developer in Vancouver, Canada</h2>
+</hgroup>
 
 - [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
-- [gshaw.ca](https://gshaw.ca)
 - [github.com/gshaw](https://github.com/gshaw)
 - [twitter.com/gerry_shaw](https://twitter.com/gerry_shaw)
-- [stackoverflow.com/users/265940/gerry](https://stackoverflow.com/users/265940/gerry-shaw)
+- [gshaw.ca](https://gshaw.ca)
 
 ## Career Highlights
 
 - Over twenty-five years software development / team lead experience developing world class gaming, web and mobile software.
-- Over 4 years of business experience as a leadership team member.
-- Proficient in Ruby, Elixir, Rust, C/C++, C#, Objective-C, Unix Bachelors of Science, major in Computer Science
-- Emergency medical background with 5 years BC Ambulance Service experience
+- Over 4 years of strategic business experience as a head of technology as an executive leadership team member.
+- Proficient in Ruby, Elixir, Swift, Objective-C, C/C++, C#, Unix
+- Bachelors of Applied Science, major in Computer Science
+- Emergency medical background with 5 years BC Ambulance Service experience and 6 years Search and Rescue
 
 ## Work Experience
+
+---
 
 ### Head of Technology
 
@@ -39,6 +43,8 @@ Implemented custom desktop and web applications. Worked on a variety of projects
 British Columbia Ambulance Service
 
 An opportunity arrived from volunteering at my local fire department led to me taking the required training to work as a licensed Paramedic in my community. A new found interest in combining software and medicine evolved into contract work on medical research projects with surgeons at Vancouver General Hospital.
+
+I continue to volunteer as a BC Search and Rescue volunteer with South Fraser SAR.
 
 ### Senior Software Engineer
 
@@ -67,6 +73,8 @@ Reserve soldier in the Royal Westminster Regiment. Received infantry, driving, c
 
 ## Education
 
+---
+
 ### Simon Fraser University
 
 Bachelor's of Science. Major in Computing Science.
@@ -78,6 +86,8 @@ Emergency Medial Responder and Primary Care Paramedic programs.
 Ground Search and Rescue and additional related courses.
 
 ## Side Projects
+
+---
 
 ### Birds Near Me - Worldwide Birding Guide
 
