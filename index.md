@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: page
+title: Gerry Shaw's Home Page
 ---
+
+# Gerry Shaw
 
 ## Independent Software Developer in Vancouver, Canada
 

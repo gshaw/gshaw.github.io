@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="/css/solo.css">
+  <link rel="canonical" href="{{ site.ull }}" />
 </head>
-<body>
+
+<body class="default-layout">
   <article>
     <div class="container">
-      <h3>{{ page.title }}</h3>
       {{ content }}
-   </div>
- </article>
+    </div>
+  </article>
 </body>
+
 </html>
