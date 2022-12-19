@@ -11,7 +11,7 @@ title: Gerry Shaw's Home Page
 
 - [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
 - [GitHub](https://github.com/gshaw)
-- [Twitter](https://twitter.com/gerry_shaw)
+- <a rel="me" href="https://mas.to/@gshaw">Mastodon</a>
 - [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)
 - [Resume](/resume)
 
