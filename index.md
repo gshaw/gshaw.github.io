@@ -21,11 +21,11 @@ title: Gerry Shaw's Home Page
 
 ### [Birds Near Me](https://birdsnearme.com)
 
-Birds Near Me is a bird guide for everybody anywhere in the world. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world.
+A bird guide for everybody anywhere in the world. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world.
 
 ### [iDefibrillate](/idefibrillate/)
 
-iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization.
+An accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization.
 
 ### [Little Faker](/littlefaker/)
 
