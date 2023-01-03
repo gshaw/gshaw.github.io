@@ -1,10 +1,9 @@
 ---
 title: Land Nav
+ogimage: /landnav/icon.png
 ---
 
-# {{ page.title }}
-
-by [Gerry Shaw](/)
+# <img alt="Land Nav app icon" src="icon.png" width="50px"> {{ page.title }}
 
 A land navigation GPS app built for professionals. No ads. Privacy respected.
 
@@ -22,4 +21,4 @@ A land navigation GPS app built for professionals. No ads. Privacy respected.
 
 <a href="https://apps.apple.com/us/app/birds-near-me/id918377574?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1412812800?h=5677661d9ae4c8ba256daa38c3ae4807" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
-[Land Nav Privacy Policy](/landnav/privacy)
+By [Gerry Shaw](/) • [Land Nav Privacy Policy](/landnav/privacy)
