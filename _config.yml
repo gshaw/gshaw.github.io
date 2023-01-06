@@ -1,6 +1,5 @@
 # Site settings
-title: Gerry Shaw's Home Page
-tag_text: Gerry Shaw
+title: Gerry Shaw
 description: Gerry Shaw is a professional software engineer in Vancouver, Canada.
 url: https://gshaw.ca
 
@@ -20,6 +19,7 @@ exclude: [
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
+      type: "pages"
     values:
-      layout: "default"
+      layout: "page"
