@@ -2,6 +2,9 @@
 title: Gerry Shaw
 description: Gerry Shaw is a professional software engineer in Vancouver, Canada.
 url: https://gshaw.ca
+author:
+  name: Gerry Shaw
+  email: gerry_shaw@yahoo.com
 
 # Build settings
 markdown: kramdown
@@ -23,3 +26,9 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
