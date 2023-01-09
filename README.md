@@ -9,8 +9,10 @@ Jekyll site for Gerry's personal home page.
 ### Build Instructions
 
 ```
-bundle install
-bundle exec jekyll serve
+brew install just
+just -l
+just install
+just start
 ```
 
 Pushing to GitHub will publish the site.
