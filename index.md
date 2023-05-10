@@ -19,6 +19,14 @@ title: Gerry Shaw's Home Page
 
 ---
 
+### [LandNav](/landnav/)
+
+A land navigation GPS and offline map app built for iOS. No ads. Privacy respected.
+
+### [Little Faker](/littlefaker/)
+
+Latin text and other fake data generator for macOS. Lightweight, quick, completely free.
+
 ### [Birds Near Me](https://birdsnearme.com)
 
 A bird guide for everybody anywhere in the world. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world.
@@ -26,10 +34,6 @@ A bird guide for everybody anywhere in the world. Find what birds are near you a
 ### [iDefibrillate](/idefibrillate/)
 
 An accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization.
-
-### [Little Faker](/littlefaker/)
-
-Latin text and other fake data generator for macOS. Lightweight, quick, completely free.
 
 ## Recent Professional Projects
 
