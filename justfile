@@ -1,7 +1,7 @@
 start:
   bundle exec jekyll serve --livereload --open-url
 
-setup:
+install:
   bundle install
 
 deploy:
