@@ -19,7 +19,7 @@ title: Gerry Shaw's Home Page
 
 ---
 
-### [LandNav](/landnav/)
+### [LandNav](https://landnav.app)
 
 A land navigation GPS and offline map app built for iOS. No ads. Privacy respected.
 
