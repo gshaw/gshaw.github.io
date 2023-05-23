@@ -68,3 +68,7 @@ title: Gerry Shaw's Home Page
     </p>
   </hgroup>
 </div>
+
+---
+
+© {{ site.start_year }} - {{ 'now' | date: "%Y" }} Gerry Shaw

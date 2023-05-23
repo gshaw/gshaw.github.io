@@ -13,3 +13,7 @@ permalink: /articles/
     </li>
   {% endfor %}
 </ul>
+
+---
+
+© {{ site.start_year }} - {{ 'now' | date: "%Y" }} [Gerry Shaw](/)
