@@ -1,8 +1,9 @@
 ---
 title: Little Faker Privacy Policy
+layout: littlefaker
 ---
 
-### {{ page.title }}
+Last updated Feb 9, 2022
 
 This Privacy Policy describes how your personal information is handled in [Little Faker](/littlefaker).
 
