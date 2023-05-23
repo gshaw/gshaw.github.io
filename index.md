@@ -2,11 +2,13 @@
 title: Gerry Shaw's Home Page
 ---
 
-<img style="max-width: 33%" src="gerry.jpg" alt="Gerry Shaw">
+<img class="profile-pic" src="gerry.jpg" alt="Gerry Shaw">
 
 <hgroup>
-  <h1>Gerry Shaw</h1>
-  <h2>Independent Software Developer in Vancouver, Canada</h2>
+  <h1>👋 Hey, I'm Gerry!</h1>
+  <p>
+    He/Him. I'm an independent software developer living in Vancouver, Canada.
+  </p>
 </hgroup>
 
 - [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
@@ -19,24 +21,50 @@ title: Gerry Shaw's Home Page
 
 ---
 
-### [Land Nav](https://landnav.app)
+<div class="app-card">
+  <a href="https://landnav.app/">
+    <img src="https://landnav.app/icon.png" alt="Land Nav app icon">
+  </a>
+  <hgroup>
+    <h3><a href="https://landnav.app/">Land Nav</a></h3>
+    <p>
+      A land navigation tool built for iOS with pro features everybody can use.
+    </p>
+  </hgroup>
+</div>
 
-A land navigation tool built for iOS with pro features everybody can use.
+<div class="app-card">
+  <a href="https://birdsnearme.com">
+    <img src="/birdsnearme/icon.jpg" alt="Birds Near Me app icon">
+  </a>
+  <hgroup>
+    <h3><a href="https://birdsnearme.com">Birds Near Me</a></h3>
+    <p>
+      Worldwide bird field guide. Find what birds are near you anywhere in the world. Free. No ads.
+    </p>
+  </hgroup>
+</div>
 
-### [Little Faker](/littlefaker/)
+<div class="app-card">
+  <a href="/idefibrillate/">
+    <img src="/idefibrillate/icon.png" alt="iDefibrillate app icon">
+  </a>
+  <hgroup>
+    <h3><a href="/idefibrillate/">iDefibrillate</a></h3>
+    <p>
+      Accurate AED (Automatic External Defibrillator) simulator designed for CPR training and general familiarization.
+    </p>
+  </hgroup>
+</div>
 
-Fast fake text generation for macOS. Free. No ads.
-
-### [Birds Near Me](https://birdsnearme.com)
-
-Worldwide bird field guide. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world. Free. No ads.
-
-### [iDefibrillate](/idefibrillate/)
-
-Accurate AED (Automatic External Defibrillator) simulator designed for CPR training and general familiarization.
-
----
-
-<p style="font-size: 9px">
-  <a style="color: #777" href="/spencer">Hint for Spencer</a>
-</p>
+<div class="app-card">
+  <a href="/littlefaker/">
+    <img src="/littlefaker/icon.png" alt="Little Faker app icon">
+  </a>
+  <hgroup>
+    <h3><a href="/littlefaker/">Little Faker</a></h3>
+    <p>
+      Fast fake text generation for macOS. Free. No ads.
+    </p>
+  </hgroup>
+</div>

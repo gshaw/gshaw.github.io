@@ -3,7 +3,7 @@ title: iDefibrillate
 layout: idefibrillate
 ---
 
-Realistic AED simulator for iOS.
+Realistic AED (Automatic External Defibrillator) simulator for iOS.
 
 <img alt="Screenshot of iDefibrillate" src="screenshots/1.png" width="300">
 
