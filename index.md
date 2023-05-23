@@ -10,41 +10,33 @@ title: Gerry Shaw's Home Page
 </hgroup>
 
 - [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
-- [GitHub](https://github.com/gshaw)
 - <a rel="me" href="https://mas.to/@gshaw">Mastodon</a>
+- [GitHub](https://github.com/gshaw)
 - [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)
 - [Resume](/resume)
 
-## Personal Projects
+## My Apps
 
 ---
 
-### [LandNav](https://landnav.app)
+### [Land Nav](https://landnav.app)
 
-A land navigation GPS and offline map app built for iOS. No ads. Privacy respected.
+A land navigation tool built for iOS with pro features everybody can use.
 
 ### [Little Faker](/littlefaker/)
 
-Latin text and other fake data generator for macOS. Lightweight, quick, completely free.
+Fast fake text generation for macOS. Free. No ads.
 
 ### [Birds Near Me](https://birdsnearme.com)
 
-A bird guide for everybody anywhere in the world. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world.
+Worldwide bird field guide. Find what birds are near you anywhere in the world or find pictures, songs, locations and information about any bird in the world. Free. No ads.
 
 ### [iDefibrillate](/idefibrillate/)
 
-An accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization.
-
-## Recent Professional Projects
+Accurate AED (Automatic External Defibrillator) simulator designed for CPR training and general familiarization.
 
 ---
 
-Projects that I previously worked on as head of technology for [Reinvent](https://reinvent.com).
-
-### [Chit Chats](https://chitchats.com)
-
-Save up to 70% on shipping from Canada to the US. Print discounted US postage in Canada and we’ll courier your parcels across the border, taking care of customs and make daily drop-offs to USPS.
-
-<p style="text-align:center; font-size: 9px">
+<p style="font-size: 9px">
   <a style="color: #777" href="/spencer">Hint for Spencer</a>
 </p>
