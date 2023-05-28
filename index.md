@@ -23,7 +23,7 @@ title: Gerry Shaw's Home Page
 
 <div class="app-card">
   <a href="https://landnav.app/">
-    <img src="https://landnav.app/icon.png" alt="Land Nav app icon">
+    <img src="/landnav/icon.png" alt="Land Nav app icon">
   </a>
   <hgroup>
     <h3><a href="https://landnav.app/">Land Nav</a></h3>
@@ -34,6 +34,17 @@ title: Gerry Shaw's Home Page
 </div>
 
 <div class="app-card">
+  <a href="https://aedsim.com">
+    <img src="/aedsim/icon.png" alt="AED Simulator app icon">
+  </a>
+  <hgroup>
+    <h3><a href="https://aedsim.com">AED Simulator</a></h3>
+    <p>
+      Accurate AED (Automatic External Defibrillator) simulator designed for CPR training.
+    </p>
+  </hgroup>
+</div>
+<div class="app-card">
   <a href="https://birdsnearme.com">
     <img src="/birdsnearme/icon.jpg" alt="Birds Near Me app icon">
   </a>
@@ -41,18 +52,6 @@ title: Gerry Shaw's Home Page
     <h3><a href="https://birdsnearme.com">Birds Near Me</a></h3>
     <p>
       Worldwide bird field guide. Find what birds are near you anywhere in the world. Free. No ads.
-    </p>
-  </hgroup>
-</div>
-
-<div class="app-card">
-  <a href="/idefibrillate/">
-    <img src="/idefibrillate/icon.png" alt="iDefibrillate app icon">
-  </a>
-  <hgroup>
-    <h3><a href="/idefibrillate/">iDefibrillate</a></h3>
-    <p>
-      Accurate AED (Automatic External Defibrillator) simulator designed for CPR training and general familiarization.
     </p>
   </hgroup>
 </div>
