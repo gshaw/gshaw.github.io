@@ -28,7 +28,7 @@ title: Resume for Gerry Shaw
 
 2021 - Present
 
-I'm currently building and selling Land Nav, a land navigation app built for iOS. It's a solo operation with myself designing, building, and marketing the application. App is built entirely SwiftUI and integrates with Mapbox and other services.
+I'm currently building and selling [Land Nav](https://landnav.app), a land navigation app built for iOS. It's a solo operation with myself designing, building, and marketing the application. App is built entirely SwiftUI and integrates with Mapbox and other services.
 
 #### Head of Technology
 
@@ -87,20 +87,20 @@ Ground Search and Rescue and additional related courses.
 
 ---
 
-#### Little Faker - Fast Fake Text Generation
+#### AED Sim - Defibrillator Simulator
 
-Designed and created a simple macOS app for generating fake text. Available on the macOS App Store.<br>
-[gshaw.ca/littlefaker](https://gshaw.ca/littlefaker)
+AED Sim is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization. Available on the iOS App Store.<br>
+[aedsim.com](https://aedsim.com)
 
 #### Birds Near Me - Worldwide Birding Guide
 
 Designed and created a worldwide field guide for birders integrating data from eBird, Wikipedia, Flickr and Xeno-Canto. Available on the iOS App Store.<br>
 [birdsnearme.com](https://birdsnearme.com)
 
-#### iDefibrillate - Realistic AED Simulator
+#### Little Faker - Fast Fake Text Generation
 
-iDefibrillate is an accurate simulator of an AED (Automatic External Defibrillator) designed to be used for CPR training and general familiarization. Available on the iOS App Store.<br>
-[gshaw.ca/idefibrillate](https://gshaw.ca/idefibrillate)
+Designed and created a simple macOS app for generating fake text. Available on the macOS App Store.<br>
+[gshaw.ca/littlefaker](https://gshaw.ca/littlefaker)
 
 #### Nant - A .NET Build Tool
 

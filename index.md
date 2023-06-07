@@ -35,12 +35,12 @@ title: Gerry Shaw's Home Page
 
 <div class="app-card">
   <a href="https://aedsim.com">
-    <img src="/aedsim/icon.png" alt="AED Simulator app icon">
+    <img src="/aedsim/icon.png" alt="AED Simu app icon">
   </a>
   <hgroup>
-    <h3><a href="https://aedsim.com">AED Simulator</a></h3>
+    <h3><a href="https://aedsim.com">AED Sim</a></h3>
     <p>
-      Accurate AED (Automatic External Defibrillator) simulator designed for CPR training.
+      A realistic defibrillator simulator for iOS built for CPR training.
     </p>
   </hgroup>
 </div>
