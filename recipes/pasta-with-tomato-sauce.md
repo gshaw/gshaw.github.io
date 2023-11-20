@@ -23,8 +23,11 @@ picture:
 ### Steps
 
 1. Bring a stockpot of water to a boil and salt it with 1 tablespoon of salt. Put the oil in a large skillet over medium-high heat. When it’s hot, add the onion. Cook, stirring occasionally, until soft, 2 to 3 minutes. Add the tomatoes and sprinkle with salt and pepper.
+
 2. Adjust the heat so the sauce bubbles enthusiastically and cook, stirring occasionally, until the tomatoes break down and the mixture begins to thicken and appear more uniform in texture, 10 to 15 minutes. Taste, adjust the seasoning, and adjust the heat so the tomato sauce stays hot but doesn’t boil.
+
 3. When the water boils, cook the pasta until it is tender but not mushy; start tasting after 5 minutes. When it’s done, scoop out and reserve at least 1 cup of the cooking water, then drain the pasta.
+
 4. Add the pasta and a splash of the cooking water to the sauce in the skillet and toss to coat, adding a little more oil or cooking water if necessary to create a slightly creamy sauce. Taste and adjust the seasoning and add more oil if you’d like; then toss with the cheese and the basil if you’re using it Serve, passing more cheese at the table.
 
 ### Tips
