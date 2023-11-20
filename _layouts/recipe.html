@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  <main class="container">
+    <nav aria-label="breadcrumb">
+      <ul>
+        <li><a href="/">gshaw.ca</a></li>
+        <li><a href="/recipes/">recipes</a></li>
+      </ul>
+    </nav>
+
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.takes }}; {{ page.makes }}</p>
+    <p>{{ page.summary }}</p>
+
+    <figure>
+      <img alt="{{ page.picture.title }}" src="/recipes/{{ page.picture.filename }}" />
+      <figcaption>{{ page.picture.title }}</figcaption>
+    </figure>
+
+    {{ content }}
+  </main>
+  {% include analytics.html %}
+</body>
+
+</html>

@@ -9,6 +9,7 @@ author:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 kramdown:
   input: GFM
@@ -21,14 +22,12 @@ exclude: [
 ]
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:

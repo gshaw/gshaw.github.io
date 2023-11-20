@@ -68,6 +68,22 @@ title: Gerry Shaw's Home Page
   </hgroup>
 </div>
 
+## Other Pages
+
+---
+
+<div class="app-card">
+  <a href="/recipes/">
+    <img src="/recipes/thumb.jpg" alt="Delicous food">
+  </a>
+  <hgroup>
+    <h3><a href="/recipes/">Favorite Recipes</a></h3>
+    <p>
+      I like to cook. Double the vegetables, half (or none) of the meat.
+    </p>
+  </hgroup>
+</div>
+
 ---
 
 © {{ site.start_year }} - {{ 'now' | date: "%Y" }} Gerry Shaw
