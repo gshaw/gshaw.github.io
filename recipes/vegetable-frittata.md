@@ -6,7 +6,7 @@ takes: 30 minutes
 makes: 4 servings
 picture:
   title: Frittata with Kale
-  filename: frittata.jpg
+  filename: vegetable-frittata.jpg
 ---
 
 ### Ingredients
