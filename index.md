@@ -84,6 +84,4 @@ title: Gerry Shaw's Home Page
   </hgroup>
 </div>
 
----
-
-© {{ site.start_year }} - {{ 'now' | date: "%Y" }} Gerry Shaw
+{% include footer.html %}

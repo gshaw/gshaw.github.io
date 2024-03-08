@@ -14,15 +14,17 @@ permalink: /recipes/
 {% assign recipes = site.pages | where: 'layout', 'recipe' %}
 {% for page in recipes %}
 
-  <div class="app-card">
-    <a href="{{ page.url }}">
-      <img src="/recipes/{{ page.picture.filename}}" alt="{{ page.picture.title }}">
-    </a>
-    <hgroup>
-      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-      <p>
-        {{ page.summary }}
-      </p>
-    </hgroup>
-  </div>
+<div class="app-card">
+  <a href="{{ page.url }}">
+    <img src="/recipes/{{ page.picture.filename}}" alt="{{ page.picture.title }}">
+  </a>
+  <hgroup>
+    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+    <p>
+      {{ page.summary }}
+    </p>
+  </hgroup>
+</div>
 {% endfor %}
+
+{% include footer.html %}
