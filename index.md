@@ -72,6 +72,20 @@ title: Gerry Shaw's Home Page
 
 ---
 
+{% assign latest_book = site.data.books | sort: 'date' | reverse | first %}
+
+<div class="app-card">
+  <a href="/books/">
+    <img src="/books/{{latest_book.id}}.jpg" alt="Books">
+  </a>
+  <hgroup>
+    <h3><a href="/books/">Favorite Books</a></h3>
+    <p>
+      I like to read. Here are some of the books that have influenced who I am.
+    </p>
+  </hgroup>
+</div>
+
 <div class="app-card">
   <a href="/recipes/">
     <img src="/recipes/thumb.jpg" alt="Delicous food">

@@ -32,8 +32,29 @@
     border-radius: 0.25em;
     box-shadow: 0 0 1px #777;
     width: 100px;
-    height: 100px;
     margin: 0 1em 2em 0;
+  }
+
+  .book-card {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+
+  @media (min-width: 768px) {
+    .book-card {
+      grid-template-columns: 200px 1fr;
+    }
+  }
+
+  .book-card img {
+    border-radius: 0.25em;
+    box-shadow: 0 0 1px #777;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .book-card hgroup {
+    margin-left: 1em;
   }
 </style>
 <title>{{ page.title }}</title>
