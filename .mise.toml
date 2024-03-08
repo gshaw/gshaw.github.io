@@ -1,0 +1,14 @@
+[tools]
+ruby = "3.3.0"
+
+[tasks.install]
+run = "bundle install"
+
+[tasks.dev]
+run = "bundle exec jekyll serve --livereload --open-url --port 4001"
+
+[tasks.deploy]
+run = "git push"
+
+[settings]
+experimental = true
