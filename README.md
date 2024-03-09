@@ -4,7 +4,7 @@ Jekyll site for Gerry's personal home page.
 
 [Live Site](https://gshaw.ca)
 
-### Build Instructions
+## Build Instructions
 
 ```sh
 brew install mise
@@ -22,4 +22,4 @@ Pushing to GitHub will publish the site.
 - DNS: [CloudFlare DNS](https://www.cloudflare.com/dns/)
 - Hosting: [GitHub Pages](https://pages.github.com)
 - Build System: [Jekyll](https://jekyllrb.com)
-- Theme: [Good Clean Read theme by adueck](https://adueck.github.io/good-clean-read)
+- Theme: [pico](https://picocss.com)

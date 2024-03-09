@@ -4,12 +4,9 @@ title: Gerry Shaw's Home Page
 
 <img class="profile-pic" src="gerry.jpg" alt="Gerry Shaw">
 
-<hgroup>
-  <h1>👋 Hey, I'm Gerry!</h1>
-  <p>
-    He/Him. I'm an independent software developer living in Vancouver, Canada.
-  </p>
-</hgroup>
+# 👋 Hey, I'm Gerry
+
+I'm an independent software developer living in Vancouver, Canada.
 
 - [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
 - <a rel="me" href="https://mas.to/@gshaw">Mastodon</a>
@@ -21,81 +18,47 @@ title: Gerry Shaw's Home Page
 
 ---
 
-<div class="app-card">
-  <a href="https://landnav.app/">
-    <img src="/landnav/icon.png" alt="Land Nav app icon">
+{% for app in site.data.apps %}
+<div class="card">
+  <a href="{{app.link_url}}">
+    <img src="{{app.icon_url}}" alt="{{app.title}} app icon">
   </a>
-  <hgroup>
-    <h3><a href="https://landnav.app/">Land Nav</a></h3>
+  <div class="card-details">
+    <h3><a href="{{app.link_url}}">{{app.title}}</a></h3>
     <p>
-      A land navigation tool built for iOS with pro features everybody can use.
+      {{ app.description }}
     </p>
-  </hgroup>
+  </div>
 </div>
+{% endfor %}
 
-<div class="app-card">
-  <a href="https://aedsim.com">
-    <img src="/aedsim/icon.png" alt="AED Simu app icon">
-  </a>
-  <hgroup>
-    <h3><a href="https://aedsim.com">AED Sim</a></h3>
-    <p>
-      A realistic defibrillator simulator for iOS built for CPR training.
-    </p>
-  </hgroup>
-</div>
-<div class="app-card">
-  <a href="https://birdsnearme.com">
-    <img src="/birdsnearme/icon.jpg" alt="Birds Near Me app icon">
-  </a>
-  <hgroup>
-    <h3><a href="https://birdsnearme.com">Birds Near Me</a></h3>
-    <p>
-      Worldwide bird field guide. Find what birds are near you anywhere in the world. Free. No ads.
-    </p>
-  </hgroup>
-</div>
-
-<div class="app-card">
-  <a href="/littlefaker/">
-    <img src="/littlefaker/icon.png" alt="Little Faker app icon">
-  </a>
-  <hgroup>
-    <h3><a href="/littlefaker/">Little Faker</a></h3>
-    <p>
-      Fast fake text generation for macOS. Free. No ads.
-    </p>
-  </hgroup>
-</div>
-
-## Other Pages
+## Other Stuff
 
 ---
 
-{% assign latest_book = site.data.books | sort: 'date' | reverse | first %}
-
-<div class="app-card">
+<div class="card">
   <a href="/books/">
+    {% assign latest_book = site.data.books | sort: 'date' | reverse | first %}
     <img src="/books/{{latest_book.id}}.jpg" alt="Books">
   </a>
-  <hgroup>
+  <div class="card-details">
     <h3><a href="/books/">Favorite Books</a></h3>
     <p>
       I like to read. Here are some of the books that have influenced who I am.
     </p>
-  </hgroup>
+  </div>
 </div>
 
-<div class="app-card">
+<div class="card">
   <a href="/recipes/">
-    <img src="/recipes/thumb.jpg" alt="Delicous food">
+    <img src="/recipes/thumb.jpg" alt="Delicious food">
   </a>
-  <hgroup>
+  <div class="card-details">
     <h3><a href="/recipes/">Favorite Recipes</a></h3>
     <p>
       I like to cook. Double the vegetables, half (or none) of the meat.
     </p>
-  </hgroup>
+  </div>
 </div>
 
 {% include footer.html %}

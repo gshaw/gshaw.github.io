@@ -9,21 +9,21 @@ permalink: /recipes/
 </nav>
 
 <h1>{{ page.title }}</h1>
+
 <hr>
 
 {% assign recipes = site.pages | where: 'layout', 'recipe' %}
-{% for page in recipes %}
-
-<div class="app-card">
-  <a href="{{ page.url }}">
-    <img src="/recipes/{{ page.picture.filename}}" alt="{{ page.picture.title }}">
+{% for recipe in recipes %}
+<div class="card card-wide-images">
+  <a href="{{ recipe.url }}">
+    <img src="/recipes/{{ recipe.picture.filename}}" alt="{{ recipe.picture.title }}">
   </a>
-  <hgroup>
-    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+  <div class="card-details">
+    <h3><a href="{{ recipe.url }}">{{ page.title }}</a></h3>
     <p>
-      {{ page.summary }}
+      {{ recipe.summary }}
     </p>
-  </hgroup>
+  </div>
 </div>
 {% endfor %}
 

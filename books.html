@@ -12,31 +12,34 @@ permalink: /books/
 <h1>{{ page.title }}</h1>
 <hr>
 
-<p>I almost all of my reading on my <a href="https://www.goodreads.com/user/show/5720682-gerry">GoodReads account</a>.
-  Below is a selection of books that have shaped me in some way.
+<p>
+  Below is a selection of books that have shaped me in some way and that I highly recommend.
+  If these look interesting I post all of my reading on my <a
+    href="https://www.goodreads.com/user/show/5720682-gerry">GoodReads account</a>.
 </p>
 
 {% assign books = site.data.books | sort: 'date' | reverse %}
-<!--
-{% for book in books %}
-<img src="/books/{{book.id}}.jpg" style="margin: 0.5em" width="150" height="150"
-  alt="{{book.title}} by {{book.author}}">
-{% endfor %}
-<hr>
--->
 
 {% for book in books %}
-<div class="book-card">
+<a href="#{{book.title | slugify}}"><img src="/books/{{book.id}}.jpg" style="margin: 0.5em" width="150" height="150"
+    alt="{{book.title}} by {{book.author}}"></a>
+{% endfor %}
+<hr>
+
+{% for book in books %}
+<div id="{{book.title | slugify}}" class="card card-wide-images">
   <a href="https://www.goodreads.com/book/show/{{book.id}}">
     <img src="/books/{{book.id}}.jpg" alt="{{book.title}} by {{book.author}}">
   </a>
-  <hgroup>
-    <h3><a href="https://www.goodreads.com/book/show/{{book.id}}">{{ book.title }}</a></h3>
-    <p>by {{book.author}}</p>
+  <div class="card-details">
+    <hgroup>
+      <h3 style="margin-bottom: 0"><a href="https://www.goodreads.com/book/show/{{book.id}}">{{ book.title }}</a></h3>
+      <p>by {{book.author}}</p>
+    </hgroup>
     <p>
       {{ book.review|newline_to_br }}
     </p>
-  </hgroup>
+  </div>
 </div>
 {% endfor %}
 

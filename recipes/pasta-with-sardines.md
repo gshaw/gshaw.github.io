@@ -16,7 +16,7 @@ picture:
 - ½ cup bread crumbs, ideally made from stale bread
 - 1 onion, chopped
 - Freshly ground black pepper
-- 1 pound long pasta, like perciatelli
+- 1 pound long pasta, like spaghetti
 - 1 teaspoon grated lemon zest
 - 2 tablespoons drained capers
 - 2 cans sardines packed in extra virgin olive oil (about 1/2 pound)

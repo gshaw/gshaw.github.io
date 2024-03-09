@@ -1,0 +1,20 @@
+-
+  title: Land Nav
+  description: A land navigation tool built for iOS with pro features everybody can use.
+  link_url: https://landnav.app
+  icon_url: /landnav/icon.png
+-
+  title: AED Sim
+  description: A realistic defibrillator simulator for iOS built for CPR training.
+  link_url: https://aedsim.com
+  icon_url: /aedsim/icon.png
+-
+  title: Birds Near Me
+  description: Worldwide bird field guide. Find what birds are near you anywhere in the world. Free. No ads.
+  link_url: https://birdsnearme.com
+  icon_url: /birdsnearme/icon.jpg
+-
+  title: Little Faker
+  description: Fast fake text generation for macOS. Free. No ads.
+  link_url: /littlefaker/
+  icon_url: /littlefaker/icon.png

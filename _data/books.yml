@@ -1,27 +1,28 @@
-- id: 900
+-
+  id: 900
   title: "The Game: Penetrating the Secret Society of Pickup Artists"
   author: Neil Strauss
   date: 2019-12-31
   review: |
       One of those risky to admin to reading books until but damn this was such a crazy story and the author is a great writer.
-
-- id: 1319
+-
+  id: 1319
   title: "The War of Art: Winning the Inner Creative Battle"
   author: Steven Pressfield
   date: 2023-11-28
   review: |
     Second time reading this. It's still amazing and full of advice when the self doubt creeps into while doing creative work.
-
-- id: 4934
+-
+  id: 4934
   title: "The Brothers Karamazov"
   author: Fyodor Dostoevsky
   date:
   review: |
-    Had a bit of an exestential crisis about 1/3 into the book and had to pause to digest everything that I read.  Make sure you select a translation that works for you.
+    Had a bit of an existential crisis about 1/3 into the book and had to pause to digest everything that I read.  Make sure you select a translation that works for you.
 
     I'm re-reading using the 1994 Ignat Avsey (Oxford) translation and really liking it.
-
-- id: 6334
+-
+  id: 6334
   title: "Never Let Me Go"
   author: Kazuo Ishiguro
   date: 2019-02-17
@@ -30,24 +31,24 @@
     The novel annoyed me but for some reason I kept at it. I tries too hard to be a page turner using annoying techniques. At the end of each chapter to the point I made a mental note to skip the last paragraph in each chapter for this reason. The ending also needlessly explains the whole plot like a James Bond movie where the villain reveals the grand plan.
 
     I loved the premise and the issues that the book touched out. Many deep themes about betrayal, racism, love, sex, and illness. The biggest impact for me was showing the pandora's box scientific progress can open leaving humanity to deal with it the best it can.
-
-- id: 6514
+-
+  id: 6514
   title: "The Bell Jar"
   author: Sylvia Plath
   date: 2022-10-11
   review_id: 5042431853
   review: |
     Amazing writing and great story telling. Went in knowing almost nothing about it or the author so did not expect how it turned out.
-
-- id: 7604
+-
+  id: 7604
   title: "Lolita"
   author: Vladimir Nabokov
   date: 2023-07-31
   review_id: 5733467372
   review: |
     What a rollercoaster of a book. Beautiful and sometimes challenging writing against a complete psychopath. I can't write a review to do this book justice.
-
-- id: 15916
+-
+  id: 15916
   title: "The True Believer: Thoughts on the Nature of Mass Movements"
   author: Eric Hoffer
   date: 2023-09-23
@@ -56,8 +57,8 @@
     Amazing! The book is very dense but also very approachable. Some fine thinking and sometimes I was just having on to keep with the discussion.
 
     Written 60+ years ago but feels just if not more relevant today. Goes to show how human nature doesn't change.
-
-- id: 17349
+-
+  id: 17349
   title: "The Demon-Haunted World: Science as a Candle in the Dark"
   author: Carl Sagan
   date: 2020-10-24
@@ -66,8 +67,8 @@
     I really like Carl Sagan and the way he thinks.  Some sections in the book are a semi-dated (UFO sightings) but if you replace UFO with 5G the psychology still applies.
 
     The second part of the book and the final chapters were really good. If you like Carl Sagan and are interested in critical thinking and science you will like this book. If not but you are interested in liberty and freedom you will really like this book as it shows the role of education and democracy.
-
-- id: 36529
+-
+  id: 36529
   title: "Narrative of the Life of Frederick Douglass"
   author: Frederick Douglass
   date: 2022-04-08
@@ -78,8 +79,8 @@
     Great read, and amazing primary source from a slave of that time. Incredible that he could teach himself to read and write under that situation. In many ways the book reminded me on "Man's Search For Meaning" for the strength of character Douglass has.
 
     Recommend for anybody interested in BLM, American History, and human rights. Read it while listening to Dan Carlin's podcast on the same topic for additional breadth.
-
-- id: 37380
+-
+  id: 37380
   title: "The Heart Is a Lonely Hunter"
   author: Carson McCullers
   date: 2019-05-18
@@ -88,8 +89,8 @@
     Hard to believe this was written by somebody so young. The character development and story is suburb. Only giving 4 stars because it still didn't grip me completely and found I had to push a bit to finish it.
 
     Update: I still think of the characters in this book years after reading it. The book gripped me more than I realized immediately after finishing.
-
-- id: 61535
+-
+  id: 61535
   title: "The Selfish Gene"
   author: Richard Dawkins
   date: 2020-12-13
@@ -98,16 +99,16 @@
     Was not expecting to gain so much insight about behaviour and psychology as I did from this book. Very interesting and very readable. What impressed me was how well the ideas he had were communicated in the book.
 
     The chapter on altruism and The Prisoner's Dilemma were especially interesting in explaining group behaviour during Covid restrictions.
-
-- id: 240485
+-
+  id: 240485
   title: "Storm of Steel"
   author: Ernst Jünger
   date: 2022-12-15
   review_id: 5261057907
   review: |
     Brutal WW1 personal account from the German perspective. The author is a different breed if even half of what he wrote is true. The fact that he somehow lived through the ordeal is incredible. The vast waste of life and resources is sobering.
-
-- id: 242472
+-
+  id: 242472
   title: "The Black Swan: The Impact of the Highly Improbable"
   author: Nassim Nicholas Taleb
   date: 2020-05-14
@@ -120,8 +121,8 @@
     The book is about exactly what the subtitle says but you need to read the book to understand the importance of the topic with his examples. The gist being that humans aren't capable of thinking in terms of extreme events and so we ignore them and they cause great harm (or good). As the world is changing to produce more of these improbable events a new non-intuitive way of thinking is needed to help hedge against the impacts.
 
     I'm sure this is a horrible summary and the author would murder me with words or just as likely write me off as incompetent. I'm good with either either outcome.
-
-- id: 394535
+-
+  id: 394535
   title: "Blood Meridian, or, the Evening Redness in the West"
   author: Cormac McCarthy
   date: 2020-08-12
@@ -132,16 +133,16 @@
     Felt like a mash up between Quentin Tarantino and Henry David Thoreau. This is capital L Literature. Many times I read a page and was left not understanding what I was going on while at the same time feeling this is significant.
 
     This isn't for everybody but I'm glad to have read it and will try some more of his novels because of it.
-
-- id: 5986375
+-
+  id: 5986375
   title: "This Is Water"
   author: David Foster Wallace
   date: 2020-11-19
   review_id: 3660696822
   review: |
     Oh my I wasn't sure what to expect but damn this was a beautiful bit of writing. Read it out loud to people you care about and then go learn who the author was if you don't already know (I didn't).
-
-- id: 6105434
+-
+  id: 6105434
   title: "Passionate Marriage: Keeping Love and Intimacy Alive in Committed Relationships"
   author: David Schnarch
   date: 2019-05-02
@@ -149,15 +150,15 @@
     Can't rate this book high enough. I gained a huge amount of insight about my self. The book's material goes well beyond relationships and can impact any aspect of your life but the core message is about love and intimacy.
 
     The frank eroticism was surprising and tastefully done. I would recommend this book to anybody in a relationship or that wants to be in one.
-
-- id: 6411016
+-
+  id: 6411016
   title: "Matterhorn"
   author: Karl Marlantes
   date: 2018-12-01
   review: |
     Devastating novel of the Vietnam war told from the American perspective. Incredibly detailed. Characters and story are compelling and believable with many sides to love and hate.
-
-- id: 11277444
+-
+  id: 11277444
   title: "The Little Drummer Girl"
   author: John le Carré
   date: 2024-03-02
@@ -167,45 +168,45 @@
     The book was first published in 1983 and yet the politics haven't changed in the 41 years. The story could take place today. This is such a colossal failure of political leadership it boggles my mind.
 
     Read based on book recommendations from the Ezra Klein Show with Thomas Friedman (Jan 19, 2024).
-
-- id: 12975375
+-
+  id: 12975375
   title: "The Advantage: Why Organizational Health Trumps Everything Else In Business"
   author: Patrick Lencioni
   date: 2018-03-10
   review: |
     I really appreciated the clear and practical writing and steps. It gives the hope that it is possible to improve organization health. It's also interesting as it applies to pretty much any organization.
-
-- id: 13623848
+-
+  id: 13623848
   title: "The Song of Achilles"
   author: Madeline Miller
   date: 2023-05-21
   review: |
     Far better than I was expecting. Looking forward to reading more of the author's books.
-
-- id: 18142355
+-
+  id: 18142355
   title: "The VB6 Cookbook: More than 350 Recipes for Healthy Vegan Meals All Day and Delicious Flexitarian Dinners at Night"
   author: Mark Bittman
   date: 2021-12-29
   review: |
-    This book changed my life. It's a hack to get you to eat more vegetables and less processed food and meat. The receipes and style of cooking really worked for me and have made my confident at hosting dinner parties with food I know my friends and family will love.
+    This book changed my life. It's a hack to get you to eat more vegetables and less processed food and meat. The recipes and style of cooking really worked for me and have made my confident at hosting dinner parties with food I know my friends and family will love.
 
     Cooking for people provides another way to love your friends and family that is difficult to describe until you do it. If you aren't comfortable cooking for a group do yourself a favor and learn.
-
-- id: 19398490
+-
+  id: 19398490
   title: "All the Light We Cannot See"
   author: Anthony Doerr
   date: 2018-03-22
   review: |
     The writing in this book made me weep at times. Such a good book. Skip the Netflix series and go straight to this.
-
-- id: 20518872
+-
+  id: 20518872
   title: "The Three-Body Problem"
   author: Liu Cixin
   date: 2019-05-31
   review: |
-    Fun hard sci-if from Chinese author. Loved the plot and the incredible concepts. Some might be far fetched but honestly it doesn''t matter. I think this would make an amazing movie with big enough budget. If you are looking for character development or literature you might be disappointed but if you want a fun read and our brain intrigued go for it.
-
-- id: 22237161
+    Fun hard sci-if from Chinese author. Loved the plot and the incredible concepts. Some might be far fetched but honestly it doesn't matter. I think this would make an amazing movie with big enough budget. If you are looking for character development or literature you might be disappointed but if you want a fun read and our brain intrigued go for it.
+-
+  id: 22237161
   title: "The Sellout"
   author: Paul Beatty
   date: 2021-08-23
@@ -213,8 +214,8 @@
     At times hilarious and almost always outrageous. I'm not quite sure what I read but the writing was amazing.  It's about race and many other things.
 
     As mentioned in a review by Jessica Woodbury on GoodReads I too am "hesitant to know how to talk about it. So much in this book is untouchable and off limits and taboo."
-
-- id: 23692271
+-
+  id: 23692271
   title: "Sapiens: A Brief History of Humankind"
   author: Yuval Noah Harari
   date: 2018-07-01
@@ -222,15 +223,15 @@
     Good pace and lots of interesting concepts. It covers so much ground that it is just touching on topics but is a great starting point and opens up lots of opportunity for discussion.
 
     Recommend continuing into the future with Homo Deus after reading this.
-
-- id: 25899336
+-
+  id: 25899336
   title: "When Breath Becomes Air"
   author: Paul Kalanithi
   date: 2018-03-20
   review: |
     Beautiful. Any review I do wouldn't do the book justice. 💔
-
-- id: 27436585
+-
+  id: 27436585
   title: "Anything You Want"
   author: Derek Sivers
   date: 2020-05-24
@@ -240,29 +241,29 @@
     I've heard Derek talk before and even remember the passion he had around learning Ruby on Rails back in the day. It's great to hear his story and the world is a better place for him being in it.
 
     Do yourself a favour and listen to the audiobook version even if you read the book.
-
-- id: 32109569
+-
+  id: 32109569
   title: "We Are Legion (We Are Bob)"
   author: Dennis E. Taylor
   date: 2018-04-24
   review: |
     Fast paced, enjoyable fun read, not very deep.  Lots of interesting ideas around von Neumann probes (self replicating space craft). Maybe too much insider 20th century geeky references. The ending just stops so the three books in the series (I think) are really one book.  Not that this is a distraction but the material could be adapted well to a movie or TV series, which I'm sure the author had in mind when it was written.
-
-- id: 39330937
+-
+  id: 39330937
   title: "The Laws of Human Nature"
   author: Robert Greene
   date: 2020-12-30
   review: |
     Best book of the year. I think there are probably a lot of problems and I bet he took a lot of liberty with some of the stories but the amount of self reflection and learning I received from reading this book was outstanding.
-
-- id: 39996759
+-
+  id: 39996759
   title: "A Philosophy of Software Design"
   author: John Ousterhout
   date: 2022-07-15
   review: |
-    It was as if the author reached into my head and wrote my own ideas around software development. I love when a find a book that explains my own ideas with more clairty. Having exisiting ideas explained better is just as valuable as reading about new ideas.  I wish I had this book when I was starting my career in software.
-
-- id: 41881472
+    It was as if the author reached into my head and wrote my own ideas around software development. I love when a find a book that explains my own ideas with more clarity. Having existing ideas explained better is just as valuable as reading about new ideas.  I wish I had this book when I was starting my career in software.
+-
+  id: 41881472
   title: "The Psychology of Money"
   author: Morgan Housel
   date: 2021-07-07
@@ -272,15 +273,15 @@
     Update after second reading.  Still amazing and can't recommend it enough. Short enough to read multiple times.
 
     Recommend for anybody investing or wanting to understand feelings around money and investing.
-
-- id: 48889983
+-
+  id: 48889983
   title: "Calling Bullshit: The Art of Skepticism in a Data-Driven World"
   author: Carl T. Bergstrom
   date: 2022-12-10
   review: |
     Another great book on critical thinking. Different than Good Thinking which I also loved. This one talks more about the specifics of how misinformation is spread and how techniques on how to detect and defeat it.
-
-- id: 52098718
+-
+  id: 52098718
   title: "Why We're Polarized"
   author: Ezra Klein
   date: 2024-02-08
@@ -288,8 +289,8 @@
     Didn't think I would find a book about American politics as interesting as I did. The writing and arguments are very compelling and helpful for understanding the specifics of U.S. politics but also what is generally happening in the world and Canada in regards to left-right wing ideologies and how they shape our current culture.
 
     After reading this I've been binging on the Erza Klein podcast which is also very good. Hilarious because I found out about Erza Klein when he did an interview with my favorite cookbook author Mark Bittman.
-
-- id: 54493401
+-
+  id: 54493401
   title: "Project Hail Mary"
   author: Andy Weir
   date: 2021-06-17
@@ -297,19 +298,19 @@
     This was an incredibly fun read to geek out to. I loved how the story unfolded without knowing much about the general direction. If you loved "The Martian" by the same author you'll like this book even though they aren't related.
 
     I've read this once and listened to the even better audiobook twice.
-
-- id: 55319176
+-
+  id: 55319176
   title: "Good Thinking: Why Flawed Logic Puts Us All at Risk and How Critical Thinking Can Save the World"
   author: David Robert Grimes
   date: 2021-06-19
   review: |
     What a great book! I've read a couple of critical thinking books in the last couple of years and this was by far the best. The use of stories and real examples makes understanding the fallacies and hazards to critical thinking much easier to understand and watch for.
 
-    I suspect everybody reading this book will come across or at least recognize an example of where the thinking may have led them astray. Reading this book will help inoculate yourself from the reams of bad informations pushed by accident and on purpose.
+    I suspect everybody reading this book will come across or at least recognize an example of where the thinking may have led them astray. Reading this book will help inoculate yourself from the reams of bad information pushed by accident and on purpose.
 
     I think everybody would benefit and enjoy this is book. Even better, read it with a friend or in a group to stimulate discussion.
-
-- id: 58449673
+-
+  id: 58449673
   title: "This Is How Your Marriage Ends: A Hopeful Approach to Saving Relationships"
   author: Matthew Fray
   date: 2022-08-15
@@ -317,15 +318,15 @@
     Lots of great information in an easy to read format. The biggest idea I took from this was prioritizing relationships with people over being right.
 
     Being right is overrated in relationships. I'll never forget his example of a child scared of monsters under the bed and how arguing that the child is obviously only harms your relationship.
-
-- id: 59358494
+-
+  id: 59358494
   title: "The Manual: 21st Century Edition"
   author: Epictetus and Sam Torode
   date: 2023-05-07
   review: |
     I love this book and read it every year. Happy to have an updated version that reads even better while still keeping the same valuable wisdom.
-
-- id: 102146148
+-
+  id: 102146148
   title: "What's Our Problem?: A Self-Help Book for Societies"
   author: Tim Urban
   date: 2024-03-08

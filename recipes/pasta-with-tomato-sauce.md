@@ -16,7 +16,7 @@ picture:
 - 1 medium onion, chopped
 - One 28-ounce can diced tomatoes, including the juice.
 - Freshly ground black pepper
-- 1 pound any dried pasta
+- 1 pound any dried pasta, shaped pasta works better for holding sauce
 - ½ cup freshly grated Parmesan cheese, plus more for serving
 - ½ cup chopped fresh basil leaves for garnish, optional
 
