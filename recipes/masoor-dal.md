@@ -5,7 +5,7 @@ summary: Simple and delicious red lentils. Combine with rice or a salad. Makes a
 takes: 30 minutes
 makes: 4 servings
 picture:
-  title: Masoor Dal.
+  title: Masoor Dal placeholder image.
   filename: pottery.jpg
 ---
 
