@@ -5,7 +5,7 @@ summary: Traditional Austrian pastry.
 takes: 60 minutes
 makes: 8 servings
 picture:
-  title: Linzer torte placeholder image.
+  title: Linzer torte.
   filename: linzer-torte.jpg
 ---
 
