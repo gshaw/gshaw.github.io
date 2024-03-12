@@ -1,5 +1,18 @@
 ---
 title: Gerry Shaw's Home Page
+links:
+  -
+    title: Favorite Books
+    description: I like to read. Here are some of the books that have influenced me.
+    url: /books/
+    image_url: /books/index.jpg
+    image_alt: "Sample of one of my favorite books"
+  -
+    title: Favorite Recipes
+    description: I like to cook. Double the vegetables, half (or none) of the meat.
+    url: /recipes/
+    image_url: /recipes/index.jpg
+    image_alt: "Delicious meal I made"
 ---
 
 
@@ -37,29 +50,16 @@ I'm an independent software developer living in Vancouver, Canada.
 
 ---
 
+{% for link in page.links %}
 <div class="card">
-  <a href="/books/">
-    {% assign latest_book = site.data.books | sort: 'date' | reverse | first %}
-    <img src="/books/{{latest_book.id}}.jpg" alt="Books">
+  <a href="{{ link.url }}">
+    <img src="{{ link.image_url }}" alt="{{ link.image_alt }}">
   </a>
   <div class="card-details">
-    <h3><a href="/books/">Favorite Books</a></h3>
-    <p>
-      I like to read. Here are some of the books that have influenced who I am.
-    </p>
+    <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
+    <p>{{ link.description }}</p>
   </div>
 </div>
-
-<div class="card">
-  <a href="/recipes/">
-    <img src="/recipes/thumb.jpg" alt="Delicious food">
-  </a>
-  <div class="card-details">
-    <h3><a href="/recipes/">Favorite Recipes</a></h3>
-    <p>
-      I like to cook. Double the vegetables, half (or none) of the meat.
-    </p>
-  </div>
-</div>
+{% endfor %}
 
 {% include footer.html %}
