@@ -2,7 +2,8 @@
 title: Gerry Shaw's Home Page
 ---
 
-<img class="profile-pic" src="gerry.jpg" alt="Gerry Shaw">
+
+![Gerry Shaw](/gerry.jpg#profile-pic)
 
 # 👋 Hey, I'm Gerry
 
