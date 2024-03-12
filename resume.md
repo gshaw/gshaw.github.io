@@ -1,6 +1,9 @@
 ---
 title: Resume for Gerry Shaw
+hide_header: true
+hide_footer: true
 ---
+<!-- markdownlint-disable MD025 MD033 -->
 
 <hgroup>
   <h1>Resume for Gerry Shaw</h1>

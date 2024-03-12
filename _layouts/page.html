@@ -7,7 +7,19 @@
 
 <body>
   <main class="container">
+    {% if page.hide_header != true %}
+    <nav aria-label="breadcrumb">
+      <ul>
+        <li><a href="/">gshaw.ca</a></li>
+      </ul>
+    </nav>
+    {% endif %}
+
     {{ content }}
+
+    {% if page.hide_footer != true %}
+    {% include footer.html %}
+    {% endif %}
   </main>
   {% include analytics.html %}
 </body>

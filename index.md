@@ -14,9 +14,9 @@ links:
     image_url: /recipes/index.jpg
     image_alt: "Delicious meal I made"
 ---
+<!-- markdownlint-disable MD025 MD033 -->
 
-
-![Gerry Shaw](/gerry.jpg#profile-pic)
+![Gerry Shaw](/gerry.jpg#header-pic)
 
 # 👋 Hey, I'm Gerry
 
@@ -61,5 +61,3 @@ I'm an independent software developer living in Vancouver, Canada.
   </div>
 </div>
 {% endfor %}
-
-{% include footer.html %}
