@@ -3,17 +3,17 @@ title: Articles
 permalink: /articles/
 ---
 
-# {{ page.title }}
+# {{page.title}}
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <small>{{ post.date | date: "%b %-d  %Y" }}</small>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{post.date | date: "%b %-d  %Y"}}</small>
+      <a href="{{post.url}}">{{post.title}}</a>
     </li>
   {% endfor %}
 </ul>
 
 ---
 
-© {{ site.start_year }} - {{ 'now' | date: "%Y" }} [Gerry Shaw](/)
+© {{site.start_year}} - {{'now' | date: "%Y"}} [Gerry Shaw](/)

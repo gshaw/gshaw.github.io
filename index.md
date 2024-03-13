@@ -21,8 +21,6 @@ links:
     image_url: /bass-coast.jpg
     image_alt: Bass Coast 2019
 ---
-<!-- markdownlint-disable MD025 MD033 -->
-
 ![Gerry Shaw](/gerry.jpg#header-pic)
 
 # 👋 Hey, I'm Gerry
@@ -39,32 +37,44 @@ I'm an independent software developer living in Vancouver, Canada.
 
 ---
 
-{% for app in site.data.apps %}
-<div class="card">
-  <a href="{{app.link_url}}">
-    <img src="{{app.icon_url}}" alt="{{app.title}} app icon">
-  </a>
-  <div class="card-details">
-    <h3><a href="{{app.link_url}}">{{app.title}}</a></h3>
-    <p>
-      {{ app.description }}
-    </p>
-  </div>
-</div>
-{% endfor %}
+<section>
+  {% for app in site.data.apps %}
+    <div class="card">
+      <a href="{{app.link_url}}">
+        <img
+          class="card-pic"
+          src="{{app.icon_url}}"
+          alt="{{app.title}} app icon"
+        >
+      </a>
+      <div class="card-details">
+        <h3><a href="{{app.link_url}}">{{app.title}}</a></h3>
+        <p>
+          {{app.description | newline_to_br}}
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
 
 ## Other Stuff
 
 ---
 
-{% for link in page.links %}
-<div class="card">
-  <a href="{{ link.url }}">
-    <img src="{{ link.image_url }}" alt="{{ link.image_alt }}">
-  </a>
-  <div class="card-details">
-    <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
-    <p>{{ link.description }}</p>
-  </div>
-</div>
-{% endfor %}
+<section>
+  {% for link in page.links %}
+    <div class="card">
+      <a href="{{link.url}}">
+        <img
+          alt="{{link.image_alt}}"
+          src="{{link.image_url}}"
+          class="card-pic"
+        >
+      </a>
+      <div class="card-details">
+        <h3><a href="{{link.url}}">{{link.title}}</a></h3>
+        <p>{{link.description | newline_to_br}}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
