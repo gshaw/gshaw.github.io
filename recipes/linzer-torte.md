@@ -12,15 +12,15 @@ picture:
 ### Ingredients
 
 - 1 cup walnuts or blanched almonds
-- 1 1/2 cups flour
+- 1 ½ cups flour
 - Pinch of salt
-- 1/2 cup granulated sugar
-- 1/4 teaspoon ground cinnamon
+- ½ cup granulated sugar
+- ¼ teaspoon ground cinnamon
 - Zest of 1 lemon
 - 8 tablespoons (1 stick) butter, cut into chunks
 - 2 egg yolks
 - 1 tablespoon fresh lemon juice, or more as needed
-- 1 to 1 1/2 cups any jam, strained if seeded
+- 1 to 1 ½ cups any jam, strained if seeded
 - Confectioners’ sugar for dusting
 
 ### Steps
