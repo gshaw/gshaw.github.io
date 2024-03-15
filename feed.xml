@@ -4,15 +4,15 @@ collection: posts
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>{{ page.url | absolute_url | xml_escape }}</id>
-  <title>{{ site.title }}</title>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{page.url | absolute_url | xml_escape}}</id>
+  <title>{{site.title}}</title>
+  <updated>{{site.time | date_to_xmlschema}}</updated>
   <author>
-    <name>{{ site.author.name | xml_escape }}</name>
-    <email>{{ site.author.email | xml_escape }}</email>
+    <name>{{site.author.name | xml_escape}}</name>
+    <email>{{site.author.email | xml_escape}}</email>
   </author>
-  <link href="{{ site.url }}"/>
-  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{site.url}}"/>
+  <generator uri="https://jekyllrb.com/" version="{{jekyll.version}}">Jekyll</generator>
 
   {% assign posts = site[page.collection] %}
   {% unless site.show_drafts %}
@@ -21,22 +21,22 @@ collection: posts
   {% assign posts = posts | sort: "date" | reverse %}
   {% for post in posts limit: 25 %}
     <entry>
-      <id>{{ post.id | absolute_url | xml_escape }}</id>
+      <id>{{post.id | absolute_url | xml_escape}}</id>
       {% assign post_title = post.title | smartify | strip_html | normalize_whitespace | xml_escape %}
-      <title type="html">{{ post_title }}</title>
-      <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+      <title type="html">{{post_title}}</title>
+      <updated>{{post.last_modified_at | default: post.date | date_to_xmlschema}}</updated>
 
-      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
-        <![CDATA[{{ post.content | strip }}]]>
+      <content type="html" xml:base="{{post.url | absolute_url | xml_escape}}">
+        <![CDATA[{{post.content | strip}}]]>
       </content>
-      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
-      <published>{{ post.date | date_to_xmlschema }}</published>
+      <link href="{{post.url | absolute_url}}" rel="alternate" type="text/html" title="{{post_title}}" />
+      <published>{{post.date | date_to_xmlschema}}</published>
 
       {% if post.category %}
-        <category term="{{ post.category | xml_escape }}" />
+        <category term="{{post.category | xml_escape}}" />
       {% elsif post.categories %}
         {% for category in post.categories %}
-          <category term="{{ category | xml_escape }}" />
+          <category term="{{category | xml_escape}}" />
         {% endfor %}
       {% endif %}
     </entry>

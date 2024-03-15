@@ -11,10 +11,10 @@
       <a href="/littlefaker">
         <img alt="Little Faker app icon" src="/littlefaker/icon.png" width="50" style="border-radius: 10%">
       </a>
-      <span style="vertical-align: middle">{{ page.title }}</span>
+      <span style="vertical-align: middle">{{page.title}}</span>
     </h1>
 
-    {{ content }}
+    {{content}}
 
     <hr>
 
@@ -25,7 +25,7 @@
       •
       <a href="/littlefaker/privacy">Privacy Policy</a>
       •
-      © {{ 'now' | date: "%Y" }} <a href="/">Gerry Shaw</a>
+      © {{'now' | date: "%Y"}} <a href="/">Gerry Shaw</a>
     </p>
   </main>
   {% include analytics.html %}

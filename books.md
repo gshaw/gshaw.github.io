@@ -3,7 +3,7 @@ title: Favorite Books
 permalink: /books/
 ---
 
-# {{ page.title }}
+# {{page.title}}
 
 ---
 
@@ -26,16 +26,16 @@ Below is a selection of books that have shaped me in some way and that I recomme
 <section>
   {% for book in books %}
     <div id="{{book.title | slugify}}" class="card card-wide-images">
-      <a href="https://www.goodreads.com/book/show/{{ book.id }}">
+      <a href="https://www.goodreads.com/book/show/{{book.id}}">
         <img
-          alt="{{book.title}} by {{ book.author }}"
+          alt="{{book.title}} by {{book.author}}"
           src="/books/{{book.id}}.jpg"
           class="card-pic"
         >
       </a>
       <div class="card-details">
         <hgroup>
-          <h3><a href="https://www.goodreads.com/book/show/{{book.id}}">{{ book.title }}</a></h3>
+          <h3><a href="https://www.goodreads.com/book/show/{{book.id}}">{{book.title}}</a></h3>
           <p>by {{book.author}}</p>
         </hgroup>
         <p>
