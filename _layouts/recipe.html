@@ -16,7 +16,13 @@
 
     <hgroup>
       <h1>{{page.title}}</h1>
-      <p>{{page.takes}}; {{page.makes}}</p>
+      <ul class="list-inline">
+        <li>{{page.takes}}</li>
+        <li>{{page.makes}}</li>
+        {% for tag in page.tags %}
+        <li>#{{tag}}</li>
+        {% endfor %}
+      </ul>
     </hgroup>
     <p>{{page.summary}}</p>
 

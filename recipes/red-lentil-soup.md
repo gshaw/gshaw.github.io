@@ -1,7 +1,9 @@
 ---
 layout: recipe
 title: Rhubarb and Red Lentil Soup
-summary: "The tart fruit provides balance while melting to almost nothing. #vegan"
+summary: The tart fruit provides balance while melting to almost nothing.
+tags:
+  - vegan
 takes: 45 minutes
 makes: 4 servings
 picture:

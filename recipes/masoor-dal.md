@@ -2,6 +2,8 @@
 layout: recipe
 title: Masoor Dal
 summary: Simple and delicious red lentils. Combine with rice or a salad. Makes a great meal or side.
+tags:
+  - vegan
 takes: 30 minutes
 makes: 4 servings
 picture:

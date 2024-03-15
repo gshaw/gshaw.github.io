@@ -48,6 +48,15 @@ img[src$="#header-pic"] {
   width: 100%;
 }
 
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin-right: 0.5em;
+}
+
 .tile-pic {
   border-radius: 0.25em;
   box-shadow: 0 0 1px #777;
