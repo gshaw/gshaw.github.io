@@ -14,12 +14,6 @@ links:
     url: /recipes/
     image_url: /recipes/index.jpg
     image_alt: "Delicious meal I made"
-  -
-    title: Bass Coast 2024
-    description: My guide to the artists of Bass Coast 2024.
-    url: /bass-coast-2024/
-    image_url: /bass-coast.jpg
-    image_alt: Bass Coast 2019
 ---
 ![Gerry Shaw](/gerry.jpg#header-pic)
 
