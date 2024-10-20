@@ -82,7 +82,7 @@ Bachelor's of Science. Major in Computing Science.
 
 #### Justice Institute of British Columbia
 
-Emergency Medial Responder and Primary Care Paramedic programs.<br>
+Emergency Medical Responder and Primary Care Paramedic programs.<br>
 Ground Search and Rescue and additional related courses.
 
 ### Side Projects and Open Source

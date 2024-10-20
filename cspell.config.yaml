@@ -1,0 +1,34 @@
+---
+$schema: "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json"
+version: "0.2"
+language: en
+allowCompoundWords: true
+ignorePaths:
+  - ".git"
+  - "cspell.*"
+  - "*.yml"
+  - "pico.min.css"
+  - "feed.xml"
+  - "*.html"
+  - "./_posts/2023-01-06-second.md"
+words:
+  - aedsim
+  - birdsnearme
+  - Canvus
+  - FIFA
+  - Flickr
+  - gshaw
+  - landnav
+  - Linzer
+  - littlefaker
+  - Mapbox
+  - Marzano
+  - Masoor
+  - Moby
+  - Nant
+  - Nitendo
+  - pico
+  - purée
+  - raab
+  - X
+  - Xeno
