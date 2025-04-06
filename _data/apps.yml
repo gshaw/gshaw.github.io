@@ -18,3 +18,8 @@
   description: Fast fake text generation for macOS. Free. No ads.
   link_url: /littlefaker/
   icon_url: /littlefaker/icon.png
+-
+  title: QR
+  description: QR code generation. Free. No ads.
+  link_url: https://qr.gshaw.ca
+  icon_url: /qr/icon.png
