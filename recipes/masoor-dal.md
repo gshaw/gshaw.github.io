@@ -8,8 +8,7 @@ takes: 30 minutes
 makes: 4 servings
 picture:
   title: Masoor Dal placeholder image.
-  filename: pottery.jpg
-  placeholder: true
+  filename: masoor-dal.jpg
 ---
 
 ### Ingredients
