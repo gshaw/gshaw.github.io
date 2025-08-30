@@ -9,6 +9,7 @@ makes: 4 servings
 picture:
   title: Placeholder photo for Rhubarb and Red Lentil Soup.
   filename: pottery.jpg
+  placeholder: true
 ---
 
 ### Ingredients

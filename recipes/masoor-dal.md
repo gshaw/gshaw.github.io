@@ -9,6 +9,7 @@ makes: 4 servings
 picture:
   title: Masoor Dal placeholder image.
   filename: pottery.jpg
+  placeholder: true
 ---
 
 ### Ingredients

@@ -26,10 +26,12 @@
     </hgroup>
     <p>{{page.summary}}</p>
 
+    {% unless page.picture.placeholder %}
     <figure>
       <img alt="{{page.picture.title}}" src="/recipes/{{page.picture.filename}}" />
       <figcaption>{{page.picture.title}}</figcaption>
     </figure>
+    {% endunless %}
 
     {{content}}
   </main>
