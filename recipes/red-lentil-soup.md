@@ -7,7 +7,7 @@ tags:
 takes: 45 minutes
 makes: 4 servings
 picture:
-  title: Placeholder photo for Rhubarb and Red Lentil Soup.
+  title: Pottery by Jesse Weise.
   filename: pottery.jpg
   placeholder: true
 ---

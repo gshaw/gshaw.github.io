@@ -7,7 +7,7 @@ tags:
 takes: 30 minutes
 makes: 4 servings
 picture:
-  title: Hummus placeholder image.
+  title: Pottery by Jesse Weise.
   filename: pottery.jpg
   placeholder: true
 ---

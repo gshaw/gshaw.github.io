@@ -28,7 +28,9 @@ picture:
 ### Steps
 
 1. Heat pot to medium high, add oil.  Add onions along with salt and pepper.  Cook stirring occasionally until onions are very soft and almost falling apart.  About 10 minutes.  During this time add carrots and peppers so all are soft at same time.  If using vegetables instead of meat add them so everything finishes cooking to avoid the sweet potatoes or squash from becoming mushy.
+
 2. Add coconut milk and cook until it thickens, about 2 minutes.  Add fish or chicken if using and stir, then cook until done, 3-6 minutes.
+
 3. Add tomatoes and cook another minute.  Adjust seasoning.  Serve over rice, garnished with herbs.
 
 Source: [bittmanproject.com](https://bittmanproject.com/recipe/easy-chicken-curry/)
