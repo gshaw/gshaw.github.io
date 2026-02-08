@@ -19,7 +19,7 @@ picture:
 - 1 pound long pasta, like spaghetti
 - 1 teaspoon grated lemon zest
 - 2 tablespoons drained capers
-- 2 cans sardines packed in extra virgin olive oil (about 1/2 pound)
+- 2 cans sardines packed in extra virgin olive oil (about ½ pound)
 - ½ cup chopped fresh parsley, plus more for garnish
 
 ### Steps

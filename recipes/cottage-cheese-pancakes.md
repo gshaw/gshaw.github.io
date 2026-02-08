@@ -15,7 +15,7 @@ picture:
 
 ### Ingredients
 
-- 1 1/4 cups all-purpose flour
+- 1¼ cups all-purpose flour
 - 2 teaspoons baking powder
 - 1 cup cottage cheese
 - 3 large eggs
@@ -27,11 +27,17 @@ picture:
 ### Steps
 
 1. In a large bowl, combine the flour and baking powder and whisk together.
+
 2. Add the cottage cheese, eggs, and milk to a blender and blend until smooth.
+
 3. Add the blended ingredients to the dry ingredients and stir gently.
+
 4. Stir in the coconut oil, maple syrup, and vanilla.
+
 5. Heat a non-stick skillet over medium heat, scoop batter into the pan and cook until the edges are dry and bubbles begin to form on the pancake.
+
 6. Flip the pancake and cook until the top is softened and the pancake is cooked through, about 1-2 minutes.
+
 7. Stack cooked pancakes on top of one another to keep warm. Top with syrup and enjoy.
 
 ### Tips
