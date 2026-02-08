@@ -3,6 +3,42 @@
 
 <head>
   {% include head.html %}
+  <style>
+    main figure img {
+      max-width: 33%;
+    }
+
+    li > input[type="checkbox"] {
+      margin-right: 0.5em;
+      cursor: pointer;
+    }
+
+    li.checked {
+      opacity: 0.5;
+    }
+
+    main ol li.checked {
+      text-decoration: line-through;
+    }
+
+    main .checklist {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    main .checklist li {
+      list-style: none;
+      cursor: pointer;
+    }
+
+    main ol.checklist li + li {
+      margin-top: 1em;
+    }
+
+    main ol.checklist li + li {
+      margin-top: 1em;
+    }
+  </style>
 </head>
 
 <body>
@@ -29,13 +65,40 @@
     {% unless page.picture.placeholder %}
     <figure>
       <img alt="{{page.picture.title}}" src="/recipes/{{page.picture.filename}}" />
-      <figcaption>{{page.picture.title}}</figcaption>
     </figure>
     {% endunless %}
 
     {{content}}
   </main>
   {% include analytics.html %}
+  <script>
+    document.querySelectorAll("main h3").forEach(function (h3) {
+      var text = h3.textContent.trim().toLowerCase();
+      if (text !== "ingredients" && text !== "steps") return;
+      var list = h3.nextElementSibling;
+      if (!list) return;
+      var isSteps = text === "steps";
+      list.classList.add("checklist");
+      list.querySelectorAll(":scope > li").forEach(function (li, index) {
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.addEventListener("change", function () {
+          li.classList.toggle("checked", checkbox.checked);
+        });
+        li.addEventListener("click", function (e) {
+          if (e.target === checkbox) return;
+          checkbox.checked = !checkbox.checked;
+          li.classList.toggle("checked", checkbox.checked);
+        });
+        var target = li.querySelector(":scope > p") || li;
+        target.insertBefore(checkbox, target.firstChild);
+        if (isSteps) {
+          var label = document.createTextNode((index + 1) + ". ");
+          target.insertBefore(label, checkbox.nextSibling);
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
