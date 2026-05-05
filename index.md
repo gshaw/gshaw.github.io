@@ -6,7 +6,7 @@ links:
     title: Favorite Books
     description: I like to read. Here are some of the books that have influenced me.
     url: /books/
-    image_url: /books/index.jpg
+    image_url: /books/55319176.jpg
     image_alt: "Sample of one of my favorite books"
   -
     title: Favorite Recipes
