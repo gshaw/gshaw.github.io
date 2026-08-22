@@ -22,7 +22,6 @@ links:
 I'm an independent software developer living in Vancouver, Canada.
 
 - [gerry_shaw@yahoo.com](mailto:gerry_shaw@yahoo.com)
-- <a rel="me" href="https://mas.to/@gshaw">Mastodon</a>
 - [GitHub](https://github.com/gshaw)
 - [Stack Overflow](https://stackoverflow.com/users/265940/gerry-shaw)
 - [Resume](/resume)
