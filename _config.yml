@@ -19,7 +19,9 @@ exclude: [
   "Gemfile.lock",
   "Gemfile",
   "LICENSE",
-  "README.md"
+  "README.md",
+  "AGENTS.md",
+  "CLAUDE.md"
 ]
 
 defaults:
