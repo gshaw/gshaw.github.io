@@ -39,6 +39,7 @@ img[src$="#header-pic"] {
 }
 
 .card-details {
+  grid-column: 2;
   margin-left: 1em;
 }
 

@@ -12,6 +12,7 @@ permalink: /recipes/
 <section>
   {% for recipe in recipes %}
     <div class="card card-wide-images">
+      {% unless recipe.picture.placeholder %}
       <a href="{{recipe.url}}">
         <img
           alt="{{recipe.picture.title}}"
@@ -19,6 +20,7 @@ permalink: /recipes/
           class="card-pic"
         >
       </a>
+      {% endunless %}
       <div class="card-details">
         <h3><a href="{{recipe.url}}">{{recipe.title}}</a></h3>
         <p>{{recipe.summary  | newline_to_br}}</p>

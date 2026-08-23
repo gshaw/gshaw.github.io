@@ -6,7 +6,7 @@ tags:
   - dinner
   - lunch
   - beef
-takes: 2 hours, largely unattended
+takes: 2 to 2½ hours, largely unattended
 makes: 10 servings
 picture:
   title: Plate by Jesse Weise.
@@ -31,7 +31,7 @@ picture:
 
 ### Steps
 
-1. Beans, water, bay leaf, and the 2 teaspoons salt in a stockpot. Bring to a boil, then adjust the heat so it bubbles gently and cover partially. Cook, stirring occasionally, until the beans are tender but still intact — 30 to 90 minutes depending on the bean and whether you soaked. Keep it at a bare simmer while you do the skillet.
+1. Beans, water, bay leaf, and the 2 teaspoons salt in a stockpot. Bring to a boil, then adjust the heat so it bubbles gently and cover partially. Cook, stirring occasionally, until the beans are tender but still intact — 90 minutes to 2 hours, less if you soaked. Keep it at a bare simmer while you do the skillet.
 
 2. Oil in a large skillet over medium-high. Break the beef in and leave it alone for 3 to 4 minutes to take color, then break it up and cook through, 6 to 8 minutes total. Season it in the pan with ½ teaspoon salt and a good grind of pepper. Don't run the pan hotter than that — lean beef smokes before it browns.
 
