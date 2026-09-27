@@ -5,7 +5,7 @@ Background for AI agents working in this repo.
 ## What this is
 
 The personal site of Gerry Shaw, live at [gshaw.ca](https://gshaw.ca). A Jekyll site
-hosted on GitHub Pages with a custom domain (see `CNAME`). It exists to introduce Gerry
+hosted on Cloudflare Pages (project `gshaw-ca`). It exists to introduce Gerry
 and his apps to people, search engines, and AI agents.
 
 **The repo and the site are both public.** Anything committed here is published. Keep
@@ -25,8 +25,28 @@ real change to the project's shape; ask first.
 ```sh
 mise run install   # bundle install
 mise run dev       # serve locally on :4001 with livereload
-mise run deploy    # git push — pushing to GitHub publishes the site
+mise run check     # build + spell + markdownlint + internal links
+mise run verify    # curl the live site after a deploy
+mise run deploy    # check, then git push
 ```
+
+**Read the counts, not just the exit code.** html-proofer prints `Ran on N files` and cspell
+prints `Files checked: N`. A green run over zero files checked nothing.
+
+The check tools (cspell, markdownlint-cli2, html-proofer) are pinned in `.mise.toml`, not
+the `Gemfile`, so the site's own dependencies stay at `jekyll` and `webrick`.
+
+## Deploys
+
+Cloudflare Pages builds every push: `main` goes to production, other branches get a
+preview URL. The build runs `bundle exec jekyll build` on build image v3 with
+`RUBY_VERSION` set in the Cloudflare project, so a Ruby bump means changing `Gemfile`,
+`.mise.toml` and that variable together. GitHub Actions runs `mise run -c check` on pushes
+and PRs; it doesn't block Cloudflare.
+
+Suppress a check inline, with a reason, in the file that provoked it
+(`<!-- cspell:ignore word -->`). Move a word to `cspell.config.yaml` only once a second file
+needs it.
 
 ## Layout
 
@@ -39,9 +59,12 @@ mise run deploy    # git push — pushing to GitHub publishes the site
   recipes appear automatically; there is no index to update.
 - `recipes/*.md` — one file per recipe, plus their images. See "Adding a recipe" below.
 - `resume.md`, `articles.md`, `404.md`, `feed.xml` (hand-written Atom feed).
-- Per-app directories — `landnav/`, `littlefaker/`, `idefibrillate/`, `aedsim/`,
-  `birdsnearme/`, `onnav/`, `qr/` — holding landing, privacy, and support pages plus icons.
-- `_layouts/` and `_includes/` (`head`, `footer`, `analytics`).
+- `littlefaker/` holds Little Faker's landing, privacy and support pages (its own layout).
+  `landnav/` and `idefibrillate/` are redirects to the apps' own sites. `aedsim/`,
+  `birdsnearme/`, `qr/` and `onnav/` hold only images used elsewhere.
+- `_layouts/` and `_includes/` (`head`, `footer`, `analytics`). `head.html` builds the
+  description, canonical and Open Graph tags from `description`/`summary`, `ogimage` or a
+  recipe's non-placeholder picture, falling back to `_config.yml`.
 - `_site/` is build output and is gitignored.
 
 Markdown is kramdown with GFM input. Permalinks are `pretty`.

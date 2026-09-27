@@ -19,7 +19,7 @@ hide_footer: true
 - Over thirty years software development / team lead experience developing world class gaming, web and mobile software.
 - Over 4 years of strategic business experience as a head of technology as an executive leadership team member.
 - Proficient in Swift, Objective-C, Ruby, Elixir, Rust, C/C++, C#, HTML/CSS/JS
-- Bachelors of Applied Science, major in Computer Science
+- Bachelor of Applied Science, major in Computer Science
 - Emergency medical background with 5 years BC Ambulance Service experience and 8 years Search and Rescue
 
 ### Work Experience
@@ -30,7 +30,7 @@ hide_footer: true
 
 2021 - Present
 
-I'm currently building and selling [Land Nav](https://landnav.app), a land navigation app built for iOS. It's a solo operation with myself designing, building, and marketing the application. App is built entirely SwiftUI and integrates with Mapbox and other services.
+I'm currently building and selling [Land Nav](https://landnav.app), a land navigation app built for iOS. It's a solo operation with myself designing, building, and marketing the application. The app is built entirely in SwiftUI and integrates with Mapbox and other services.
 
 #### Head of Technology
 
@@ -44,7 +44,7 @@ Head of Technology for all projects at Reinvent. Involved in training, recruitin
 2007 - 2012
 British Columbia Ambulance Service
 
-An opportunity arrived from volunteering at my local fire department led to me taking the required training to work as a licensed Paramedic in my community. A new found interest in combining software and medicine evolved into contract work on medical research projects with surgeons at Vancouver General Hospital.
+Volunteering at my local fire department led to me taking the required training to work as a licensed Paramedic in my community. A new found interest in combining software and medicine evolved into contract work on medical research projects with surgeons at Vancouver General Hospital.
 
 I continue to volunteer as a BC Search and Rescue volunteer with South Fraser SAR.
 
@@ -53,7 +53,7 @@ I continue to volunteer as a BC Search and Rescue volunteer with South Fraser SA
 2002 - 2007
 Electronic Arts Inc.
 
-Lead Engineer for all Playstation Portable (PSP) and Nitendo DS products done at EA Canada. Managed the build process, pipelines, tools and help with setting standards for 10+ simultaneous projects for a large (300+ person) group. As required worked directly on games implementing features as required.
+Lead Engineer for all PlayStation Portable (PSP) and Nintendo DS products done at EA Canada. Managed the build process, pipelines, tools and help with setting standards for 10+ simultaneous projects for a large (300+ person) group. As required worked directly on games implementing features as required.
 
 Two year sabbatical allowed time for travel, completing my schooling and expanding my skills. Among other things I developed Nant during this time.
 
@@ -78,7 +78,7 @@ Reserve soldier in the Royal Westminster Regiment. Received infantry, driving, c
 
 #### Simon Fraser University
 
-Bachelor's of Science. Major in Computing Science.
+Bachelor of Applied Science, major in Computer Science.
 
 #### Justice Institute of British Columbia
 

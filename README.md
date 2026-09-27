@@ -14,12 +14,13 @@ mise run dev
 mise run deploy
 ```
 
-Pushing to GitHub will publish the site.
+Pushing to `main` publishes the site on Cloudflare Pages. `mise run check` runs the build,
+spell check, Markdown lint and internal link check.
 
 ## Powered By
 
 - Domain Register: [Namecheap](https://www.namecheap.com)
-- DNS: [CloudFlare DNS](https://www.cloudflare.com/dns/)
-- Hosting: [GitHub Pages](https://pages.github.com)
+- DNS: [Cloudflare DNS](https://www.cloudflare.com/dns/)
+- Hosting: [Cloudflare Pages](https://pages.cloudflare.com)
 - Build System: [Jekyll](https://jekyllrb.com)
-- Theme: [pico](https://picocss.com)
+- CSS: [Pico.css](https://picocss.com)
