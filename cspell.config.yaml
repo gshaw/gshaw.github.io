@@ -31,6 +31,7 @@ words:
   - Masoor
   - Moby
   - Nant
+  - ogimage # front matter key for the Open Graph image
   - onnav
   - pico
   - purée
