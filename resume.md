@@ -19,7 +19,7 @@ hide_footer: true
 - Over thirty years software development / team lead experience developing world class gaming, web and mobile software.
 - Over 4 years of strategic business experience as a head of technology as an executive leadership team member.
 - Proficient in Swift, Objective-C, Ruby, Elixir, Rust, C/C++, C#, HTML/CSS/JS
-- Bachelors of Applied Science, major in Computer Science
+- Bachelor of Applied Science, major in Computer Science
 - Emergency medical background with 5 years BC Ambulance Service experience and 8 years Search and Rescue
 
 ### Work Experience
@@ -78,7 +78,7 @@ Reserve soldier in the Royal Westminster Regiment. Received infantry, driving, c
 
 #### Simon Fraser University
 
-Bachelor's of Science. Major in Computing Science.
+Bachelor of Applied Science, major in Computer Science.
 
 #### Justice Institute of British Columbia
 
