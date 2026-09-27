@@ -49,3 +49,5 @@ picture:
 - Store cooled leftover pancakes in an airtight container in the fridge for up to 4 days, or freeze up to 2 months.
 
 Source: [jaroflemons.com](https://www.jaroflemons.com/cottage-cheese-pancakes/)
+
+<!-- cspell:ignore jaroflemons -- the source site's domain -->

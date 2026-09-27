@@ -1,13 +1,20 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% if page.ogimage and page.ogimage != '' %}
-<meta property="og:image" content="{{page.ogimage}}">
-{% endif %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+{% assign description = page.description | default: page.summary | default: site.description -%}
+{% assign image = page.ogimage | default: site.icon -%}
+{% if page.picture and page.picture.placeholder != true %}{% assign image = page.picture.filename | prepend: "/recipes/" %}{% endif -%}
+<meta name="description" content="{{ description | strip_html | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ description | strip_html | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ image | absolute_url }}">
 
 <link rel="icon" sizes="any" href="/favicon.192x192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<link rel="alternate" type="application/rss+xml" title="RSS Feed for gshaw.ca" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="gshaw.ca" href="/feed.xml">
 <link rel="stylesheet" href="/pico.min.css">
 <link rel="stylesheet" href="/style.css">
-<title>{{page.title}}</title>

@@ -5,6 +5,11 @@ language: en
 allowCompoundWords: true
 ignorePaths:
   - ".git"
+  - ".claude"
+  - "_site"
+  - ".jekyll-cache"
+  - "vendor"
+  - "Gemfile.lock"
   - "cspell.*"
   - "*.yml"
   - "pico.min.css"
@@ -26,9 +31,17 @@ words:
   - Masoor
   - Moby
   - Nant
-  - Nitendo
+  - onnav
   - pico
   - purée
   - raab
+  - tappable
+  - Weise # Jesse Weise, credited on recipe photos
+  # Cooking words the dictionary lacks
+  - blanco
+  - cannellini
+  - kabocha
+  - umami
+  - verdita
   - X
   - Xeno
