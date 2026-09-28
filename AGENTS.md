@@ -47,8 +47,9 @@ Ruby stays on 3.4.4 because build image v3 preinstalls it. Any other version com
 from source and adds about 3 minutes to every build. `Gemfile` and `Gemfile.lock` are
 identical across the five Jekyll sites (gshaw.ca, LandNav, AEDSim, Birds Near Me,
 weisearts.com): change them in one, then copy both files to the others.
-<!-- cspell:ignore weisearts gshaw -- the sibling sites' domains --> GitHub Actions runs `mise run -c check` on pushes
-and PRs; it doesn't block Cloudflare.
+<!-- cspell:ignore weisearts gshaw -- the sibling sites' domains -->
+
+GitHub Actions runs `mise run -c check` on pushes and PRs; it doesn't block Cloudflare.
 
 Suppress a check inline, with a reason, in the file that provoked it
 (`<!-- cspell:ignore word -->`). Move a word to `cspell.config.yaml` only once a second file
