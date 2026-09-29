@@ -14,8 +14,9 @@ mise run dev
 mise run deploy
 ```
 
-Pushing to `main` publishes the site on Cloudflare Pages. `mise run check` runs the build,
-spell check, Markdown lint and internal link check.
+Deploy with `mise run deploy`. It refuses unless you're on a clean `main` with nothing newer on GitHub, then checks, pushes, waits for Cloudflare Pages and runs `mise run verify`. `mise run deploy-status` says whether `main` is live. The rule is in [Workshop's deploy note](https://github.com/gshaw/Workshop/blob/main/Tooling/deploy.md).
+
+`mise run check` runs the build, spell check, Markdown lint and internal link check.
 
 ## Powered By
 
