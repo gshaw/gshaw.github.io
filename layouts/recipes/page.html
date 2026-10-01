@@ -1,0 +1,42 @@
+{{ define "main" }}
+<hgroup>
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Params.takes }} · {{ .Params.makes }}{{ range .Params.tags }} · #{{ . }}{{ end }}</p>
+</hgroup>
+<p>{{ .Params.summary }}</p>
+{{ with partial "recipe-picture.html" (dict "page" . "width" 600) }}
+<figure>
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Params.picture.title }}">
+  <figcaption>{{ $.Params.picture.title }}</figcaption>
+</figure>
+{{ end }}
+{{ .Content }}
+{{ end }}
+
+{{ define "footer" }}<!-- no footer on a recipe -->{{ end }}
+
+{{ define "head" }}
+<style>
+  main figure img { max-width: 33%; height: auto; }
+  ul:has(> li > label) { padding-left: 0; }
+  ul > li:has(> label) { list-style: none; }
+  li:has(input:checked) { opacity: 0.5; }
+  ol li:has(input:checked) { text-decoration: line-through; }
+</style>
+{{ end }}
+
+{{ define "script" }}
+<script>
+  // Turn the Ingredients and Steps lists into tap-to-check lists.
+  document.querySelectorAll("h3").forEach(function (h3) {
+    if (!["ingredients", "steps"].includes(h3.id)) return;
+    h3.nextElementSibling.querySelectorAll(":scope > li").forEach(function (li) {
+      var target = li.querySelector(":scope > p") || li;
+      var label = document.createElement("label");
+      label.innerHTML = '<input type="checkbox"> ';
+      while (target.firstChild) label.appendChild(target.firstChild);
+      target.appendChild(label);
+    });
+  });
+</script>
+{{ end }}

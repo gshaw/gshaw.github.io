@@ -6,16 +6,14 @@ allowCompoundWords: true
 ignorePaths:
   - ".git"
   - ".claude"
-  - "_site"
-  - ".jekyll-cache"
-  - "vendor"
-  - "Gemfile.lock"
+  - "public"
+  - "resources"
   - "cspell.*"
   - "*.yml"
   - "pico.min.css"
-  - "feed.xml"
+  - "*.xml"
   - "*.html"
-  - "./_posts/2023-01-06-second.md"
+  - "./content/articles/second.md"
 words:
   - aedsim
   - birdsnearme

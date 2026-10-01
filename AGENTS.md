@@ -4,7 +4,7 @@ Background for AI agents working in this repo.
 
 ## What this is
 
-The personal site of Gerry Shaw, live at [gshaw.ca](https://gshaw.ca). A Jekyll site
+The personal site of Gerry Shaw, live at [gshaw.ca](https://gshaw.ca). A Hugo site
 hosted on Cloudflare Pages (project `gshaw-ca`). It exists to introduce Gerry
 and his apps to people, search engines, and AI agents.
 
@@ -13,42 +13,35 @@ private notes, credentials, and personal context out of tracked files.
 
 ## Guiding principle
 
-Keep it minimal. Prefer removing over adding. Don't introduce files, gems, plugins, build
-steps, or config unless asked — a smaller site is the goal, not a more capable one.
+Keep it minimal. Prefer removing over adding. Don't introduce files, themes, Hugo modules,
+build steps, or config unless asked — a smaller site is the goal, not a more capable one.
 
-There are currently no Jekyll plugins: `_config.yml` has no `plugins:` key and the
-`Gemfile` carries only `jekyll`, `webrick`, and a few stdlib gems. Adding a plugin is a
+There is no theme and no Hugo module: every template is in `layouts/`. Adding either is a
 real change to the project's shape; ask first.
 
 ## Commands
 
 ```sh
-mise run install   # bundle install
-mise run dev       # serve locally on :4001 with livereload
+mise run dev       # hugo server on :4001 with live reload
 mise run check     # build + spell + markdownlint + internal links
 mise run deploy    # guard, check, push, wait for Pages, verify
 mise run verify    # curl the live site
 mise run deploy-status  # is main live?
 ```
 
-**Read the counts, not just the exit code.** html-proofer prints `Ran on N files` and cspell
-prints `Files checked: N`. A green run over zero files checked nothing.
+**Read the counts, not just the exit code.** lychee prints `N OK` and cspell prints
+`Files checked: N`. A green run over zero files checked nothing.
 
-The check tools (cspell, markdownlint-cli2, html-proofer) are pinned in `.mise.toml`, not
-the `Gemfile`, so the site's own dependencies stay at `jekyll` and `webrick`.
+Hugo and the check tools (cspell, markdownlint-cli2, lychee) are pinned in `.mise.toml`.
+The build runs with `--panicOnWarning`, so a deprecation warning fails it rather than
+scrolling past.
 
 ## Deploys
 
 Cloudflare Pages builds every push: `main` goes to production, other branches get a
-preview URL. The build runs `bundle exec jekyll build` on build image v3 with
-`RUBY_VERSION` set in the Cloudflare project, so a Ruby bump means changing `Gemfile`,
-`.mise.toml` and that variable together.
-
-Ruby stays on 3.4.4 because build image v3 preinstalls it. Any other version compiles
-from source and adds about 3 minutes to every build. `Gemfile` and `Gemfile.lock` are
-identical across the five Jekyll sites (gshaw.ca, LandNav, AEDSim, Birds Near Me,
-weisearts.com): change them in one, then copy both files to the others.
-<!-- cspell:ignore weisearts gshaw -- the sibling sites' domains -->
+preview URL. The build runs `hugo` on build image v3 with `HUGO_VERSION` set in the
+Cloudflare project, for production and preview. A Hugo bump means changing `.mise.toml`
+and that variable together.
 
 **Deploy with `mise run deploy`**, never a bare `git push` to `main`.
 `scripts/deploy-guard.sh` refuses unless the branch is `main`, the tree is clean and
@@ -65,34 +58,48 @@ needs it.
 
 ## Layout
 
-- `index.md` — homepage. Apps come from `_data/apps.yml`; the "Other Stuff" cards come
-  from the `links:` list in the page's own front matter.
-- `books.md` → `/books/`, driven by `_data/books.yml` (hand-curated favorites, each with
-  a Goodreads `id` used for both the cover image and the outbound link).
-  `_data/goodreads.yml` is a separate generated export of the full reading history.
-- `recipes.md` → `/recipes/`, which auto-lists every page with `layout: recipe`. New
-  recipes appear automatically; there is no index to update.
-- `recipes/*.md` — one file per recipe, plus their images. See "Adding a recipe" below.
-- `resume.md`, `articles.md`, `404.md`, `feed.xml` (hand-written Atom feed).
-- `littlefaker/` holds Little Faker's landing, privacy and support pages (its own layout).
-  `landnav/` and `idefibrillate/` are redirects to the apps' own sites. `aedsim/`,
-  `birdsnearme/`, `qr/` and `onnav/` hold only images used elsewhere.
-- `_layouts/` and `_includes/` (`head`, `footer`, `analytics`). `head.html` builds the
+- `content/_index.md` — homepage. `{{< cards apps >}}` lists `data/apps.yml`;
+  `{{< cards links >}}` lists the `links:` in the page's own front matter.
+- `content/books.md` → `/books/`. `{{< books >}}` lists `data/books.yml`
+  (hand-curated favorites, each with a Goodreads `id` used for both the cover image in
+  `static/books/` and the outbound link), newest `date` first.
+  `data/goodreads.yml` is a separate generated export of the full reading history.
+- `content/recipes/` — one file per recipe. `/recipes/` lists every file there; there is
+  no index to update. Photos are in `static/recipes/`. See "Adding a recipe" below.
+- `content/resume.md`, `content/articles/` (posts at `/articles/<file name>/`).
+- `content/littlefaker/` holds Little Faker's landing, privacy and support pages, with
+  their own layout (`layouts/littlefaker/all.html`).
+- `static/` is published as it is: CSS, icons, book covers, recipe photos, and the images
+  in `aedsim/`, `birdsnearme/`, `qr/` and `onnav/` used elsewhere. `static/_redirects` sends
+  `/landnav/` and `/idefibrillate/` to the apps' own sites with a 301.
+- `layouts/`: `baseof.html` is the page shell; `_partials/head.html` builds the
   description, canonical and Open Graph tags from `description`/`summary`, `ogimage` or a
-  recipe's non-placeholder picture, falling back to `_config.yml`.
-- `_site/` is build output and is gitignored.
+  recipe's non-placeholder picture, falling back to `hugo.toml`. `home.atom.xml` is the
+  Atom feed at `/feed.xml`; `404.html` the not-found page.
+- `public/` is build output and `resources/` Hugo's image cache; both are gitignored.
 
-Markdown is kramdown with GFM input. Permalinks are `pretty`.
+Hugo doesn't run template code inside Markdown files: a loop over data goes in a
+shortcode in `layouts/_shortcodes/`, called from the page.
+
+### Hugo gotchas
+
+Each of these cost time on 2026-10-01, the day the site moved to Hugo.
+
+- **`sort` skips silently on a nil value.** One book without a `date:` left the whole list
+  unsorted, with no error. `books.html` sorts the dated books and appends the rest.
+- **An empty `define` doesn't override a block.** `{{ define "header" }}{{ end }}`
+  is ignored and the default renders. Put a comment in it.
+- **Raw HTML ends at a blank line.** A blank line inside a `<div>` in Markdown wraps what
+  follows in a `<p>`. Keep raw HTML blocks free of blank lines.
+- **A link with spaces needs angle brackets**: `[text](<mailto:x?subject=A B>)`.
 
 ## Adding a recipe
 
-Create one file in `recipes/`. Nothing else needs editing — `recipes.md` builds the index
-by scanning for every page with `layout: recipe`, so a new file appears on `/recipes/`
-automatically.
+Create one file in `content/recipes/`. Nothing else needs editing: `/recipes/` lists every
+file in that folder.
 
 ```markdown
 ---
-layout: recipe
 title: Quick-Glazed Carrots
 summary: Tender carrots simmered until glossy, then finished with lemon and herbs.
 tags:
@@ -126,21 +133,19 @@ Source: [How to Cook Everything, Mark Bittman](https://www.goodreads.com/book/sh
 
 Field notes:
 
-- `layout: recipe` is what puts the recipe on the index. Without it the page is invisible there.
-- `takes` and `makes` are free text, rendered as-is in the row beneath the title alongside
+- `takes` and `makes` are free text, rendered as-is in the line beneath the title alongside
   the tags. Nothing parses them.
-- `picture.filename` is an image in `recipes/`; `picture.title` is its alt text and photo
-  credit. `placeholder: true` hides the large image on the recipe page but the image is
-  *still* used for the index card — that's how a generic stock photo works without looking
-  like a real photo of the finished dish.
+- `picture.filename` is an image in `static/recipes/`; `picture.title` is its alt text and
+  caption. The layouts resize it to WebP. `placeholder: true` means there's no real photo
+  of the dish yet: the recipe page, its index card and its `og:image` all skip the picture.
 - `### Variations` and the trailing `Source:` line are conventions across the existing
   recipes, not requirements.
 
 ### Recipe checklists
 
-`_layouts/recipe.html` runs a script that converts the lists under the `### Ingredients`
+`layouts/recipes/page.html` runs a script that turns the lists under the `### Ingredients`
 and `### Steps` headings into tappable checklists, for cooking from a phone. It matches
-those two heading texts exactly. Renaming or re-leveling them silently disables the
+the headings' ids, `ingredients` and `steps`, so renaming them silently disables the
 feature, with no build error.
 
 ## Deliberate decisions — don't "fix" these

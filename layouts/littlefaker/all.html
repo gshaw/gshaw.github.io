@@ -1,0 +1,13 @@
+{{ define "header" }}
+<h1>
+  <a href="/littlefaker/"><img alt="Little Faker app icon" src="/littlefaker/icon.png" width="50" style="border-radius: 10%"></a>
+  <span style="vertical-align: middle">{{ .Title }}</span>
+</h1>
+{{ end }}
+{{ define "footer" }}
+<hr>
+<p>
+  <a href="/littlefaker/">Little Faker</a> • <a href="/littlefaker/support/">Support</a> •
+  <a href="/littlefaker/privacy/">Privacy Policy</a> • © 2022 - {{ now.Year }} <a href="/">{{ site.Params.author.name }}</a>
+</p>
+{{ end }}

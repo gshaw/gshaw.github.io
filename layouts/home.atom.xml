@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ .Permalink }}feed.xml</id>
+  <title>{{ site.Title | html }}</title>
+  <updated>{{ now.Format "2006-01-02T15:04:05-07:00" }}</updated>
+  <author><name>{{ site.Params.author.name }}</name><email>{{ site.Params.author.email }}</email></author>
+  <link href="{{ .Permalink }}"/>
+  {{- range first 25 (where site.RegularPages "Section" "articles").ByDate.Reverse }}
+  <entry>
+    <id>{{ .Permalink }}</id>
+    <title type="html">{{ .Title | html }}</title>
+    <updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" }}</updated>
+    <link href="{{ .Permalink }}"/>
+    <content type="html">{{ .Content | html }}</content>
+  </entry>
+  {{- end }}
+</feed>
