@@ -1,0 +1,15 @@
+// gshaw.ca is static: Workers Builds runs `hugo` on every push and this Worker
+// serves public/, with no script of its own. Branches get a Preview.
+{
+  "$schema": "https://unpkg.com/wrangler@4.143.1/config-schema.json",
+  "name": "gshaw-ca",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+  },
+  "routes": [{ "pattern": "gshaw.ca", "custom_domain": true }],
+  // Production only at gshaw.ca. A branch's Preview still gets a workers.dev URL.
+  "workers_dev": false,
+  "previews": {},
+}
