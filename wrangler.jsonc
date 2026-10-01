@@ -8,6 +8,8 @@
     "directory": "./public",
     "not_found_handling": "404-page",
   },
-  "workers_dev": true,
+  "routes": [{ "pattern": "gshaw.ca", "custom_domain": true }],
+  // Production only at gshaw.ca. A branch's Preview still gets a workers.dev URL.
+  "workers_dev": false,
   "previews": {},
 }

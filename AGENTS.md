@@ -5,7 +5,7 @@ Background for AI agents working in this repo.
 ## What this is
 
 The personal site of Gerry Shaw, live at [gshaw.ca](https://gshaw.ca). A Hugo site
-hosted on Cloudflare Pages (project `gshaw-ca`). It exists to introduce Gerry
+served by a Cloudflare Worker (`gshaw-ca`) that has no script, only the built files. It exists to introduce Gerry
 and his apps to people, search engines, and AI agents.
 
 **The repo and the site are both public.** Anything committed here is published. Keep
@@ -24,7 +24,7 @@ real change to the project's shape; ask first.
 ```sh
 mise run dev       # hugo server on :4001 with live reload
 mise run check     # build + spell + markdownlint + internal links
-mise run deploy    # guard, check, push, wait for Pages, verify
+mise run deploy    # guard, check, push, wait for the build, verify
 mise run verify    # curl the live site
 mise run deploy-status  # is main live?
 ```
@@ -38,16 +38,17 @@ scrolling past.
 
 ## Deploys
 
-Cloudflare Pages builds every push: `main` goes to production, other branches get a
-preview URL. The build runs `hugo` on build image v3 with `HUGO_VERSION` set in the
-Cloudflare project, for production and preview. A Hugo bump means changing `.mise.toml`
-and that variable together.
+Workers Builds builds every push. `main` runs `hugo` and `wrangler deploy` to
+production; any other branch runs `wrangler preview`, which gives it a Preview URL
+(`https://<branch>-gshaw-ca.gerry-shaw.workers.dev`) and a comment on its PR.
+`wrangler.jsonc` serves `public/` with no script. The two build triggers each set
+`HUGO_VERSION`, so a Hugo bump means changing `.mise.toml` and both triggers together.
 
 **Deploy with `mise run deploy`**, never a bare `git push` to `main`.
 `scripts/deploy-guard.sh` refuses unless the branch is `main`, the tree is clean and
-`origin/main` isn't ahead. Then it runs `check`, pushes, waits for the "Cloudflare Pages"
-check run on the commit (`scripts/pages-status.sh --wait`) and runs `verify`. A merged PR
-also deploys, since Pages builds every push to `main`. The rule and the list of sites are
+`origin/main` isn't ahead. Then it runs `check`, pushes, waits for the "Workers Builds: gshaw-ca"
+check run on the commit (`scripts/build-status.sh --wait`) and runs `verify`. A merged PR
+also deploys, since Workers Builds deploys every push to `main`. The rule and the list of sites are
 in [Workshop's deploy note](https://github.com/gshaw/Workshop/blob/main/Tooling/deploy.md).
 
 GitHub Actions runs `mise run -c check` on pushes and PRs; it doesn't block Cloudflare.
