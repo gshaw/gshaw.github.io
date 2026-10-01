@@ -1,0 +1,13 @@
+{{- $items := cond (eq (.Get 0) "links") .Page.Params.links hugo.Data.apps -}}
+<section>
+  {{- range $items }}
+  {{- $url := or .link_url .url }}
+  <div class="card">
+    <a href="{{ $url }}"><img class="card-pic" src="{{ or .icon_url .image_url }}" alt="{{ or .image_alt (printf "%s app icon" .title) }}"></a>
+    <div class="card-details">
+      <h3><a href="{{ $url }}">{{ .title }}</a></h3>
+      <p>{{ .description }}</p>
+    </div>
+  </div>
+  {{- end }}
+</section>

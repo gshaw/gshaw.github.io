@@ -1,0 +1,42 @@
+# cspell:ignore robotstxt
+baseURL = "https://gshaw.ca/"
+title = "Gerry Shaw"
+disableHugoGeneratorInject = true
+# No sitemap, robots.txt or RSS: see "Deliberate decisions" in AGENTS.md.
+# The Atom feed at /feed.xml is layouts/home.atom.xml.
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotstxt"]
+
+[params]
+description = "Gerry Shaw is a professional software engineer in Vancouver, Canada."
+icon = "/gerry.jpg"
+start_year = 2013
+[params.author]
+name = "Gerry Shaw"
+email = "gerry_shaw@yahoo.com"
+
+# Posts at /articles/first/, named by file, not title.
+[permalinks.page]
+articles = "/articles/:contentbasename/"
+
+[markup.goldmark.renderer]
+unsafe = true # raw HTML in Markdown: the Little Faker badge, the home page's header picture
+
+[mediaTypes."application/atom+xml"]
+suffixes = ["xml"]
+[outputFormats.Atom]
+mediaType = "application/atom+xml"
+baseName = "feed"
+isPlainText = true # text/template: the layout escapes what it prints
+[outputs]
+home = ["html", "atom"]
+section = ["html"]
+
+# Recipe photos live once, in static/recipes/: published as they are (for
+# og:image and the home page) and also read as resources, so the recipe
+# layouts can resize them.
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "static/recipes"
+target = "assets/recipes"

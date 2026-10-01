@@ -1,0 +1,23 @@
+{{- /* sort fails silently on a nil date, so undated books go last */ -}}
+{{- $dated := where hugo.Data.books "date" "!=" nil -}}
+{{- $books := (sort $dated "date" "desc") | append (where hugo.Data.books "date" "==" nil) -}}
+<section>
+  {{- range $books }}
+  <a href="#{{ .title | urlize }}"><img alt="{{ .title }} by {{ .author }}" src="/books/{{ .id }}.jpg" class="tile-pic"></a>
+  {{- end }}
+</section>
+<section>
+  {{- range $books }}
+  {{- $url := printf "https://www.goodreads.com/book/show/%v" .id }}
+  <div id="{{ .title | urlize }}" class="card card-wide-images">
+    <a href="{{ $url }}"><img alt="{{ .title }} by {{ .author }}" src="/books/{{ .id }}.jpg" class="card-pic"></a>
+    <div class="card-details">
+      <hgroup>
+        <h3><a href="{{ $url }}">{{ .title }}</a></h3>
+        <p>by {{ .author }}</p>
+      </hgroup>
+      <p>{{ .review | strings.TrimSpace | replaceRE "\n" "<br>" | safeHTML }}</p>
+    </div>
+  </div>
+  {{- end }}
+</section>

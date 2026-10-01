@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }}</title>
+{{- $description := or .Params.description .Params.summary site.Params.description }}
+{{- $image := or .Params.ogimage site.Params.icon }}
+{{- with .Params.picture }}{{ if not .placeholder }}{{ $image = printf "/recipes/%s" .filename }}{{ end }}{{ end }}
+<meta name="description" content="{{ $description | plainify }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ $description | plainify }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $image | absURL }}">
+<link rel="icon" sizes="any" href="/favicon.192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="alternate" type="application/atom+xml" title="gshaw.ca" href="/feed.xml">
+<link rel="stylesheet" href="/pico.min.css">
+<link rel="stylesheet" href="/style.css">

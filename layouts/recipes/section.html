@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<hr>
+<section>
+  {{- range .Pages.ByTitle }}
+  <div class="card card-wide-images">
+    {{- with partial "recipe-picture.html" (dict "page" . "width" 400) }}
+    <a href="{{ $.RelPermalink }}"><img alt="{{ $.Params.picture.title }}" src="{{ .RelPermalink }}" class="card-pic"></a>
+    {{- else }}<div></div>{{ end }}
+    <div class="card-details">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Params.summary }}</p>
+    </div>
+  </div>
+  {{- end }}
+</section>
+{{ end }}

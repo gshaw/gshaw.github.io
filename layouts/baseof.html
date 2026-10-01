@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {{ partial "head.html" . }}
+  {{ block "head" . }}{{ end }}
+</head>
+<body>
+  <main class="container">
+    {{ block "header" . }}
+    {{ if not (or .IsHome .Params.hide_header) }}
+    <nav aria-label="breadcrumb">
+      <ul>
+        <li><a href="/">gshaw.ca</a></li>
+        {{ with .Parent }}{{ if not .IsHome }}<li><a href="{{ .RelPermalink }}">{{ .Section }}</a></li>{{ end }}{{ end }}
+      </ul>
+    </nav>
+    {{ end }}
+    {{ end }}
+    {{ block "main" . }}{{ .Content }}{{ end }}
+    {{ block "footer" . }}
+    {{ if not .Params.hide_footer }}
+    <hr>
+    <p><a href="/">gshaw.ca</a> • © {{ site.Params.start_year }} - {{ now.Year }} {{ site.Params.author.name }}</p>
+    {{ end }}
+    {{ end }}
+  </main>
+  {{ partial "analytics.html" . }}
+  {{ block "script" . }}{{ end }}
+</body>
+</html>

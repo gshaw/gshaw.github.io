@@ -1,0 +1,9 @@
+{{ define "header" }}<!-- no breadcrumb on a post -->{{ end }}
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+{{ define "footer" }}
+<hr>
+<p>© {{ site.Params.start_year }} - {{ now.Year }} <a href="/">Gerry Shaw</a> • <a href="/articles/">All Articles</a></p>
+{{ end }}

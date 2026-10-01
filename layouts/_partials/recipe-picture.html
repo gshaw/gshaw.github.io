@@ -1,0 +1,10 @@
+{{- /* A recipe's photo from assets/recipes/, resized to the given width. Returns nil for a placeholder. */ -}}
+{{- $img := false -}}
+{{- with .page.Params.picture -}}
+  {{- if not .placeholder -}}
+    {{- with resources.Get (printf "recipes/%s" .filename) -}}
+      {{- $img = .Resize (printf "%dx webp" $.width) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $img -}}
